@@ -1,0 +1,1047 @@
+/* ============================================
+   CAMINHO DA FÉ - STYLES.CSS
+   Quaresma à Pentecostes - Versão Completa
+   ============================================ */
+
+/* Reset e Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Cores por período */
+  --color-quaresma: #8b5cf6;
+  --color-semana: #10b981;
+  --color-via: #ef4444;
+  --color-pascoa: #eab308;
+  --color-pentecostes: #f97316;
+  
+  /* Cores específicas */
+  --color-cinzas: #6b7280;
+  --color-domingo: #10b981;
+  --color-segunda: #ec4899;
+  --color-terca: #f59e0b;
+  --color-quinta: #8b5cf6;
+  --color-sexta: #78716c;
+  --color-sabado: #6366f1;
+  
+  /* Sombras */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-strong: 0 12px 40px rgba(0, 0, 0, 0.16);
+  
+  /* Transições */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: 'Nunito', 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Skip Link para Acessibilidade */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ============================================
+   HEADER HERO
+   ============================================ */
+.hero-header {
+  background: linear-gradient(135deg, #7c3aed 0%, #a855f7 25%, #d97706 75%, #f59e0b 100%);
+  position: relative;
+  padding-bottom: 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-decoration {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.decor-item {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.15);
+  animation: float 8s ease-in-out infinite;
+}
+
+.decor-1 { font-size: 10rem; top: -3rem; left: -3rem; animation-delay: 0s; }
+.decor-2 { font-size: 8rem; bottom: 30%; right: 5%; animation-delay: 1s; }
+.decor-3 { font-size: 12rem; top: 10%; right: 25%; opacity: 0.1; animation-delay: 2s; }
+.decor-4 { font-size: 6rem; top: 20%; left: 10%; animation-delay: 3s; }
+.decor-5 { font-size: 5rem; bottom: 20%; left: 20%; animation-delay: 4s; }
+.decor-6 { font-size: 7rem; top: 5%; right: 5%; animation-delay: 5s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-30px) rotate(5deg); }
+}
+
+/* Animações dos ícones */
+.hero-icons i {
+  display: inline-block;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+.bounce-animation { animation: bounce 2s infinite; }
+.pulse-animation { animation: pulse 2s infinite; }
+.float-animation { animation: float-gentle 3s ease-in-out infinite; }
+.flame-animation { animation: flame 1.5s ease-in-out infinite; }
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes flame {
+  0%, 100% { transform: scale(1) rotate(-2deg); opacity: 0.9; }
+  25% { transform: scale(1.05) rotate(2deg); opacity: 1; }
+  50% { transform: scale(1) rotate(-1deg); opacity: 0.95; }
+  75% { transform: scale(1.03) rotate(1deg); opacity: 1; }
+}
+
+/* Título */
+.hero-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease-out;
+}
+
+.hero-subtitle {
+  animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Navegação por Períodos */
+.period-nav {
+  animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.period-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  min-width: 100px;
+}
+
+.period-btn:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.period-btn i {
+  font-size: 1.5rem;
+}
+
+.period-btn span {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.period-btn small {
+  font-size: 0.7rem;
+  opacity: 0.9;
+}
+
+.period-quaresma:hover { border-color: #a855f7; }
+.period-semana-santa:hover { border-color: #10b981; }
+.period-via-sacra:hover { border-color: #ef4444; }
+.period-pascoa:hover { border-color: #eab308; }
+.period-pentecostes:hover { border-color: #f97316; }
+
+/* Onda */
+.hero-wave {
+  line-height: 0;
+  margin-top: 3rem;
+}
+
+.hero-wave svg {
+  width: 100%;
+  height: 80px;
+}
+
+/* ============================================
+   NAVEGAÇÃO STICKY
+   ============================================ */
+.sticky-nav {
+  transition: all 0.3s ease;
+}
+
+.sticky-nav.scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.nav-pill:hover {
+  transform: scale(1.05);
+}
+
+.nav-intro { background: #f3f4f6; color: #6b7280; }
+.nav-intro:hover { background: #e5e7eb; }
+
+.nav-quaresma { background: #ede9fe; color: #7c3aed; }
+.nav-quaresma:hover { background: #ddd6fe; }
+
+.nav-semana { background: #d1fae5; color: #059669; }
+.nav-semana:hover { background: #a7f3d0; }
+
+.nav-via { background: #fee2e2; color: #dc2626; }
+.nav-via:hover { background: #fecaca; }
+
+.nav-pascoa { background: #fef9c3; color: #ca8a04; }
+.nav-pascoa:hover { background: #fef08a; }
+
+.nav-pentecostes { background: #ffedd5; color: #ea580c; }
+.nav-pentecostes:hover { background: #fed7aa; }
+
+.nav-dicas { background: #fef3c7; color: #d97706; }
+.nav-dicas:hover { background: #fde68a; }
+
+/* ============================================
+   SEÇÕES
+   ============================================ */
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-icon {
+  animation: gentle-bounce 3s infinite;
+}
+
+@keyframes gentle-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* ============================================
+   INTRODUÇÃO
+   ============================================ */
+.intro-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.intro-icon {
+  animation: float 4s ease-in-out infinite;
+}
+
+.timeline-preview {
+  margin-top: 1.5rem;
+}
+
+.timeline-dot {
+  background: var(--color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.timeline-arrow {
+  color: #9ca3af;
+  font-size: 1.25rem;
+}
+
+/* ============================================
+   CARDS DOS DIAS
+   ============================================ */
+.day-card {
+  position: relative;
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.day-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.day-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-strong);
+}
+
+/* Bordas coloridas */
+.card-cinzas { border-left: 8px solid var(--color-cinzas); }
+.card-quaresma-1 { border-left: 8px solid #8b5cf6; }
+.card-quaresma-2 { border-left: 8px solid #6366f1; }
+.card-quaresma-3 { border-left: 8px solid #3b82f6; }
+.card-quaresma-4 { border-left: 8px solid #14b8a6; }
+.card-quaresma-5 { border-left: 8px solid #f43f5e; }
+.card-domingo { border-left: 8px solid var(--color-domingo); }
+.card-segunda { border-left: 8px solid var(--color-segunda); }
+.card-terca { border-left: 8px solid var(--color-terca); }
+.card-quinta { border-left: 8px solid var(--color-quinta); }
+.card-sexta { border-left: 8px solid var(--color-sexta); }
+.card-sabado { border-left: 8px solid var(--color-sabado); }
+.card-pascoa { border-left: 8px solid var(--color-pascoa); }
+.card-pascoa-2 { border-left: 8px solid #22c55e; }
+.card-pascoa-3 { border-left: 8px solid #3b82f6; }
+.card-pascoa-4 { border-left: 8px solid #a855f7; }
+.card-pascoa-5 { border-left: 8px solid #f97316; }
+.card-pascoa-6 { border-left: 8px solid #ec4899; }
+.card-ascensao { border-left: 8px solid #0ea5e9; }
+
+/* Efeito Glow */
+.card-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
+    rgba(255, 255, 255, 0.4) 0%, 
+    transparent 50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.day-card:hover .card-glow {
+  opacity: 1;
+}
+
+/* Conteúdo */
+.card-content {
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.day-card:hover .card-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.card-theme {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-message {
+  color: #4b5563;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Box de atividades */
+.activity-box {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.activity-box h4 {
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.activity-list {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.activity-list li {
+  padding: 0.25rem 0;
+  padding-left: 1.25rem;
+  position: relative;
+  font-size: 0.9rem;
+}
+
+.activity-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0.25rem;
+  color: currentColor;
+  font-weight: bold;
+}
+
+/* Frase do dia */
+.phrase-box {
+  background: white;
+  padding: 0.875rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  margin-top: 1rem;
+  border: 2px solid #fde68a;
+  font-size: 0.9rem;
+  color: #92400e;
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.phrase-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.phrase-box-dark {
+  border-color: #d6d3d1;
+  color: #57534e;
+}
+
+.phrase-box-pascoa {
+  border-color: #fde047;
+  background: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+  font-size: 1.1rem;
+  animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(250, 204, 21, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(250, 204, 21, 0.8); }
+}
+
+/* Footer do card */
+.card-footer {
+  padding: 0.875rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Botão Like */
+.like-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.like-btn:hover {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.like-btn.liked {
+  color: #ef4444;
+}
+
+.like-btn.liked i {
+  animation: heart-beat 0.5s ease;
+}
+
+@keyframes heart-beat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.3); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* ============================================
+   QUARESMA ESPECÍFICO
+   ============================================ */
+.quaresma-counter {
+  position: relative;
+  overflow: hidden;
+}
+
+.quaresma-counter::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+  animation: rotate 20s linear infinite;
+}
+
+.counter-display {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.counter-number {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.counter-label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.quaresma-praticas {
+  margin-top: 2rem;
+}
+
+.pratica-card {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pratica-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ============================================
+   VIA SACRA
+   ============================================ */
+.via-sacra-intro {
+  position: relative;
+}
+
+.estacao-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease;
+  border-left: 4px solid #dc2626;
+  position: relative;
+  overflow: hidden;
+}
+
+.estacao-card:hover {
+  transform: translateX(5px);
+  box-shadow: var(--shadow-medium);
+}
+
+.estacao-card.completed {
+  border-left-color: #22c55e;
+  opacity: 0.8;
+}
+
+.estacao-numero {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 50px;
+  height: 50px;
+  background: #dc2626;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-family: 'Times New Roman', serif;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.estacao-numero.estacao-final {
+  background: #22c55e;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+}
+
+.estacao-content h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #991b1b;
+  margin-bottom: 0.5rem;
+  padding-right: 2rem;
+}
+
+.estacao-reflexao {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.estacao-oracao {
+  background: #fef2f2;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  color: #991b1b;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.estacao-gesto {
+  font-size: 0.8rem;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Progresso Via Sacra */
+.via-sacra-progress {
+  text-align: center;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #dc2626, #f59e0b);
+  width: 0%;
+  transition: width 0.5s ease;
+  border-radius: 10px;
+}
+
+.btn-reset {
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background 0.3s ease;
+}
+
+.btn-reset:hover {
+  background: #4b5563;
+}
+
+/* ============================================
+   TRÍDUO PASCAL
+   ============================================ */
+.triduo-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.triduo-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.triduo-dia {
+  position: relative;
+  z-index: 1;
+}
+
+.triduo-icon {
+  animation: pulse 3s infinite;
+}
+
+/* ============================================
+   PÁSCOA ESPECIAL
+   ============================================ */
+.card-pascoa {
+  background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
+}
+
+.pascoa-visual {
+  position: relative;
+}
+
+.confetti-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+.confetti {
+  position: absolute;
+  font-size: 1.5rem;
+  animation: confetti-fall 3s linear infinite;
+  opacity: 0;
+}
+
+.confetti:nth-child(1) { left: 20%; animation-delay: 0s; }
+.confetti:nth-child(2) { left: 40%; animation-delay: 0.5s; }
+.confetti:nth-child(3) { left: 60%; animation-delay: 1s; }
+.confetti:nth-child(4) { left: 80%; animation-delay: 1.5s; }
+.confetti:nth-child(5) { left: 50%; animation-delay: 2s; }
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-20px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* ============================================
+   PENTECOSTES
+   ============================================ */
+.pentecostes-card {
+  position: relative;
+}
+
+.fire-decorations {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.fire-particle {
+  position: absolute;
+  font-size: 2rem;
+  animation: fire-float 4s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+.fire-particle:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+.fire-particle:nth-child(2) { top: 20%; right: 15%; animation-delay: 1s; }
+.fire-particle:nth-child(3) { bottom: 20%; left: 20%; animation-delay: 2s; }
+.fire-particle:nth-child(4) { bottom: 10%; right: 10%; animation-delay: 3s; }
+
+@keyframes fire-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.6; }
+  50% { transform: translateY(-20px) rotate(10deg); opacity: 1; }
+}
+
+/* ============================================
+   DICAS
+   ============================================ */
+.dica-card {
+  transition: all 0.3s ease;
+}
+
+.dica-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
+.download-section {
+  text-align: center;
+}
+
+.download-btn {
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ============================================
+   VERSÍCULO FINAL
+   ============================================ */
+.versiculo-final {
+  position: relative;
+}
+
+.versiculo-icon {
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+}
+
+.versiculo-icon:nth-child(2) { animation-delay: 0.2s; }
+.versiculo-icon:nth-child(3) { animation-delay: 0.4s; }
+.versiculo-icon:nth-child(4) { animation-delay: 0.6s; }
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40'%3E%3Cpath fill='%23fffbeb' d='M0 40L48 36C96 32 192 24 288 20C384 16 480 16 576 20C672 24 768 32 864 34C960 36 1056 32 1152 28C1248 24 1344 20 1392 18L1440 16V0H1392C1344 0 1248 0 1152 0C1056 0 960 0 864 0C768 0 672 0 576 0C480 0 384 0 288 0C192 0 96 0 48 0H0V40Z'/%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.footer-icons i {
+  transition: transform 0.3s ease;
+}
+
+.footer-icons i:hover {
+  transform: scale(1.2);
+}
+
+.footer-links a {
+  transition: color 0.3s ease;
+}
+
+/* ============================================
+   BOTÕES FIXOS
+   ============================================ */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.5);
+}
+
+.install-btn {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.install-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(124, 58, 237, 0.5);
+}
+
+.install-btn.hidden {
+  display: none;
+}
+
+/* ============================================
+   IMPRESSÃO
+   ============================================ */
+@media print {
+  .sticky-nav,
+  .back-to-top,
+  .install-btn,
+  .like-btn,
+  .hero-decoration {
+    display: none !important;
+  }
+  
+  .day-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  body {
+    background: white !important;
+  }
+}
+
+/* ============================================
+   RESPONSIVIDADE
+   ============================================ */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .period-btn {
+    padding: 0.75rem;
+    min-width: 80px;
+  }
+  
+  .period-btn span {
+    font-size: 0.8rem;
+  }
+  
+  .counter-number {
+    font-size: 3rem;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+  }
+  
+  .estacao-numero {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+
+/* ============================================
+   PREFERÊNCIA DE MOVIMENTO REDUZIDO
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

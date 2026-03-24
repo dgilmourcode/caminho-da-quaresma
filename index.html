@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#065f46">
+  <meta name="description"
+    content="Roteiro Infantil Completo: Quaresma, Semana Santa, Páscoa e Pentecostes para crianças">
+
+  <title>🌿 Caminho da Fé | Quaresma à Pentecostes</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Ícone para iOS -->
+  <link rel="apple-touch-icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+
+<body class="antialiased bg-gradient-to-br from-purple-50 via-amber-50 to-emerald-50 min-h-screen">
+
+  <!-- Skip Link para Acessibilidade -->
+  <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+  <!-- ============================================
+       HEADER HERO COM NAVEGAÇÃO POR PERÍODO
+       ============================================ -->
+  <header class="hero-header relative overflow-hidden">
+    <div class="hero-decoration">
+      <i class="fas fa-palm-tree decor-item decor-1"></i>
+      <i class="fas fa-dove decor-item decor-2"></i>
+      <i class="fas fa-cross decor-item decor-3"></i>
+      <i class="fas fa-fire decor-item decor-4"></i>
+      <i class="fas fa-cloud decor-item decor-5"></i>
+      <i class="fas fa-sun decor-item decor-6"></i>
+    </div>
+
+    <div class="container mx-auto px-4 py-12 md:py-20 relative z-10 text-center">
+      <div class="hero-icons flex justify-center gap-4 text-5xl mb-6">
+        <i class="fas fa-pray text-purple-300 bounce-animation"></i>
+        <i class="fas fa-cross text-amber-200 pulse-animation"></i>
+        <i class="fas fa-dove text-emerald-300 float-animation"></i>
+        <i class="fas fa-fire text-orange-300 flame-animation"></i>
+      </div>
+
+      <h1 class="hero-title text-4xl md:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
+        🌿 Caminho da Fé
+      </h1>
+
+      <p class="text-lg md:text-2xl text-white/90 max-w-2xl mx-auto mb-8 font-medium text-center leading-relaxed">
+        Da Quaresma a Pentecostes: <br> Uma jornada de amor, esperança e alegria para toda a família
+      </p>
+
+
+      <!-- Navegação Principal por Períodos -->
+      <nav class="period-nav flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+        <a href="#quaresma" class="period-btn period-quaresma">
+          <i class="fas fa-pray"></i>
+          <span>Quaresma</span>
+          <small>40 dias</small>
+        </a>
+        <a href="#semana-santa" class="period-btn period-semana-santa">
+          <i class="fas fa-cross"></i>
+          <span>Semana Santa</span>
+          <small>7 dias</small>
+        </a>
+        <a href="#via-sacra" class="period-btn period-via-sacra">
+          <i class="fas fa-road"></i>
+          <span>Via Sacra</span>
+          <small>14 estações</small>
+        </a>
+        <a href="#pascoa" class="period-btn period-pascoa">
+          <i class="fas fa-sun"></i>
+          <span>Páscoa</span>
+          <small>50 dias</small>
+        </a>
+        <a href="#pentecostes" class="period-btn period-pentecostes">
+          <i class="fas fa-fire"></i>
+          <span>Pentecostes</span>
+          <small>Festa final</small>
+        </a>
+      </nav>
+    </div>
+
+    <div class="hero-wave absolute bottom-[-1px] left-0 w-full leading-none overflow-hidden">
+      <svg class="block w-full h-[80px] md:h-[100px]" viewBox="0 0 1440 120" preserveAspectRatio="none">
+    </div>
+  </header>
+
+  <!-- ============================================
+       NAVEGAÇÃO STICKY POR SEÇÕES
+       ============================================ -->
+  <nav class="sticky-nav sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-4 border-purple-200 shadow-lg">
+    <div class="container mx-auto px-4 py-3">
+      <div class="nav-scroll flex flex-wrap justify-center md:justify-center gap-2 overflow-x-auto pb-2 scrollbar-hide">
+        <a href="#intro" class="nav-pill nav-intro"><i class="fas fa-home"></i><span>Início</span></a>
+        <a href="#quaresma" class="nav-pill nav-quaresma"><i class="fas fa-pray"></i><span>Quaresma</span></a>
+        <a href="#semana-santa" class="nav-pill nav-semana"><i class="fas fa-calendar-week"></i><span>Semana
+            Santa</span></a>
+        <a href="#via-sacra" class="nav-pill nav-via"><i class="fas fa-road"></i><span>Via Sacra</span></a>
+        <a href="#triduo" class="nav-pill nav-triduo"><i class="fas fa-moon"></i><span>Tríduo</span></a>
+        <a href="#pascoa" class="nav-pill nav-pascoa"><i class="fas fa-sun"></i><span>Páscoa</span></a>
+        <a href="#pentecostes" class="nav-pill nav-pentecostes"><i class="fas fa-fire"></i><span>Pentecostes</span></a>
+        <a href="#dicas" class="nav-pill nav-dicas"><i class="fas fa-lightbulb"></i><span>Dicas</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       CONTEÚDO PRINCIPAL
+       ============================================ -->
+  <main id="main-content" class="container mx-auto px-4 py-12">
+
+    <!-- SEÇÃO: INTRODUÇÃO -->
+    <section id="intro" class="intro-section mb-16">
+      <div class="intro-card bg-white rounded-3xl p-8 shadow-xl border-2 border-purple-100">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <div class="intro-icon text-8xl">🗺️</div>
+          <div class="intro-text text-center md:text-left">
+            <h2 class="text-3xl font-bold text-purple-800 mb-4">Bem-vindos à Nossa Jornada!</h2>
+            <p class="text-lg text-gray-600 mb-4">
+              A Igreja celebra o Mistério Pascal (morte e ressurreição de Jesus) em um ciclo que começa na
+              <strong>Quaresma</strong>, passa pela <strong>Semana Santa</strong>, brilha na <strong>Páscoa</strong>
+              e culmina em <strong>Pentecostes</strong>.
+            </p>
+            <div class="timeline-preview flex flex-wrap justify-center md:justify-start gap-4 mt-6">
+              <div class="timeline-dot" style="--color: #8b5cf6">Cinzas</div>
+              <div class="timeline-arrow">→</div>
+              <div class="timeline-dot" style="--color: #f59e0b">Ramos</div>
+              <div class="timeline-arrow">→</div>
+              <div class="timeline-dot" style="--color: #ef4444">Paixão</div>
+              <div class="timeline-arrow">→</div>
+              <div class="timeline-dot" style="--color: #eab308">Ressurreição</div>
+              <div class="timeline-arrow">→</div>
+              <div class="timeline-dot" style="--color: #f97316">Espírito Santo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: QUARESMA (40 DIAS)
+         ============================================ -->
+    <section id="quaresma" class="section-quaresma mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-purple-100 text-purple-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-pray"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-purple-800">🙏 Tempo da Quaresma</h2>
+          <p class="text-purple-600 font-medium">40 dias de preparação • Conversão • Oração • Jejum • Caridade</p>
+        </div>
+      </div>
+
+      <!-- Contador de Dias -->
+      <div
+        class="quaresma-counter bg-gradient-to-r from-purple-500 to-indigo-600 rounded-2xl p-6 text-white mb-8 text-center">
+        <p class="text-lg mb-2">📅 A Quaresma tem aproximadamente</p>
+        <div class="counter-display">
+          <span class="counter-number">40</span>
+          <span class="counter-label">dias</span>
+        </div>
+        <p class="text-sm opacity-90 mt-2">Contando do Carnaval até o Domingo de Ramos</p>
+      </div>
+
+      <!-- Cards da Quaresma -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Cinzas -->
+        <article class="day-card card-cinzas" data-day="cinzas">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-gray-100 text-gray-600">
+                <i class="fas fa-ash"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-gray-700">Quarta-feira de Cinzas</h3>
+                <span class="card-theme text-gray-500">Início da Quaresma</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Voltar para Deus de coração.</p>
+              <div class="activity-box bg-gray-50">
+                <h4><i class="fas fa-cross text-gray-500"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>✝️ Receba as cinzas na igreja (ou faça em casa com papel queimado)</li>
+                  <li>📝 Escreva o que quer mudar este ano</li>
+                  <li>🙏 Momento de silêncio pedindo perdão</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-heart text-gray-400"></i>
+                  <strong>"Convertei-vos e crede no Evangelho!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-gray-50">
+            <span><i class="far fa-clock"></i> Dia especial</span>
+            <button class="like-btn" data-day="Cinzas"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Domingo 1 -->
+        <article class="day-card card-quaresma-1" data-day="quaresma1">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-purple-100 text-purple-600">
+                <i class="fas fa-mountain"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-purple-700">1º Domingo</h3>
+                <span class="card-theme text-purple-500">Tentação no deserto</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Jesus venceu as tentações. Nós também podemos!</p>
+              <div class="activity-box bg-purple-50">
+                <h4><i class="fas fa-shield-alt text-purple-500"></i> Atividade:</h4>
+                <ul class="activity-list">
+                  <li>🏜️ Monte um "deserto" com almofadas</li>
+                  <li>🤔 Fale sobre tentações do dia a dia</li>
+                  <li>💪 Faça promessas de superação</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-pray text-purple-400"></i>
+                  <strong>"Não só de pão vive o homem"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-purple-50">
+            <span><i class="far fa-calendar"></i> 1ª semana</span>
+            <button class="like-btn" data-day="Quaresma 1"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Domingo 2 -->
+        <article class="day-card card-quaresma-2" data-day="quaresma2">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-indigo-100 text-indigo-600">
+                <i class="fas fa-mountain-sun"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-indigo-700">2º Domingo</h3>
+                <span class="card-theme text-indigo-500">Transfiguração</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Jesus brilha! Ele é o Filho de Deus.</p>
+              <div class="activity-box bg-indigo-50">
+                <h4><i class="fas fa-star text-indigo-500"></i> Atividade:</h4>
+                <ul class="activity-list">
+                  <li>✨ Faça estrelas de papel</li>
+                  <li>🌟 Conte qualidades brilhantes de cada um</li>
+                  <li>📖 Leia a história da transfiguração</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-sun text-indigo-400"></i>
+                  <strong>"Este é o meu Filho amado. Escutai-o!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-indigo-50">
+            <span><i class="far fa-calendar"></i> 2ª semana</span>
+            <button class="like-btn" data-day="Quaresma 2"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Domingo 3 -->
+        <article class="day-card card-quaresma-3" data-day="quaresma3">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-blue-100 text-blue-600">
+                <i class="fas fa-faucet"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-blue-700">3º Domingo</h3>
+                <span class="card-theme text-blue-500">A Samaritana</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Jesus nos dá água viva (seu amor).</p>
+              <div class="activity-box bg-blue-50">
+                <h4><i class="fas fa-tint text-blue-500"></i> Atividade:</h4>
+                <ul class="activity-list">
+                  <li>💧 Experimento com água colorida</li>
+                  <li>🚰 Fale sobre a importância da água</li>
+                  <li>❤️ Compare: água = amor de Jesus</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-water text-blue-400"></i>
+                  <strong>"A água que eu darei vira fonte!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-blue-50">
+            <span><i class="far fa-calendar"></i> 3ª semana</span>
+            <button class="like-btn" data-day="Quaresma 3"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Domingo 4 -->
+        <article class="day-card card-quaresma-4" data-day="quaresma4">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-teal-100 text-teal-600">
+                <i class="fas fa-eye"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-teal-700">4º Domingo</h3>
+                <span class="card-theme text-teal-500">O Cego</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Jesus nos cura e nos faz ver com amor.</p>
+              <div class="activity-box bg-teal-50">
+                <h4><i class="fas fa-hands text-teal-500"></i> Atividade:</h4>
+                <ul class="activity-list">
+                  <li>👁️ Jogo de vendar os olhos (confiança)</li>
+                  <li>🎨 Desenhe coisas bonitas que "enxerga"</li>
+                  <li>🙏 Agradecer pela visão</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-eye text-teal-400"></i>
+                  <strong>"Eu creio, Senhor!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-teal-50">
+            <span><i class="far fa-calendar"></i> 4ª semana</span>
+            <button class="like-btn" data-day="Quaresma 4"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Domingo 5 -->
+        <article class="day-card card-quaresma-5" data-day="quaresma5">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-rose-100 text-rose-600">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-rose-700">5º Domingo</h3>
+                <span class="card-theme text-rose-500">Lázaro</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Jesus tem poder sobre a morte. Ele é a vida!</p>
+              <div class="activity-box bg-rose-50">
+                <h4><i class="fas fa-seedling text-rose-500"></i> Atividade:</h4>
+                <ul class="activity-list">
+                  <li>🌱 Plante uma semente (vida nova)</li>
+                  <li>💝 Visite alguém que precisa de carinho</li>
+                  <li>😊 Sorria para quem está triste</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-heart text-rose-400"></i>
+                  <strong>"Eu sou a ressurreição e a vida!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-rose-50">
+            <span><i class="far fa-calendar"></i> 5ª semana</span>
+            <button class="like-btn" data-day="Quaresma 5"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Práticas da Quaresma -->
+      <div
+        class="quaresma-praticas mt-8 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
+        <h3 class="text-2xl font-bold text-purple-800 mb-4 text-center">
+          <i class="fas fa-clipboard-list text-purple-600"></i> Práticas para toda a Quaresma
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="pratica-card bg-white p-4 rounded-xl shadow-sm">
+            <div class="pratica-icon text-3xl mb-2">🙏</div>
+            <h4 class="font-bold text-purple-700">Oração</h4>
+            <p class="text-sm text-gray-600">Rezar juntos em família, pelo menos 5 minutos por dia</p>
+          </div>
+          <div class="pratica-card bg-white p-4 rounded-xl shadow-sm">
+            <div class="pratica-icon text-3xl mb-2">🍽️</div>
+            <h4 class="font-bold text-purple-700">Jejum</h4>
+            <p class="text-sm text-gray-600">Renunciar a algo (doce, TV, tablet) para crescer espiritualmente</p>
+          </div>
+          <div class="pratica-card bg-white p-4 rounded-xl shadow-sm">
+            <div class="pratica-icon text-3xl mb-2">🎁</div>
+            <h4 class="font-bold text-purple-700">Caridade</h4>
+            <p class="text-sm text-gray-600">Doar roupas, brinquedos ou fazer visitas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: SEMANA SANTA (Roteiro Original)
+         ============================================ -->
+    <section id="semana-santa" class="section-semana-santa mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-emerald-100 text-emerald-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-calendar-week"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-emerald-800">🌿 Semana Santa</h2>
+          <p class="text-emerald-600 font-medium">Os dias mais importantes do ano cristão</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Domingo de Ramos -->
+        <article class="day-card card-domingo" data-day="domingo">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-emerald-100 text-emerald-600">
+                <i class="fas fa-palm-tree"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-emerald-800">🌿 Domingo de Ramos</h3>
+                <span class="card-theme text-emerald-600">Entrada em Jerusalém</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Jesus é nosso Rei de amor.</p>
+              <div class="activity-box bg-emerald-50">
+                <h4><i class="fas fa-hand-peace text-emerald-500"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>🌿 Faça raminhos com papel ou folhas</li>
+                  <li>🏠 Caminhem dizendo: "Hosana! Viva Jesus!"</li>
+                </ul>
+                <h4><i class="fas fa-palette text-emerald-500"></i> Atividade:</h4>
+                <p>Desenhar Jesus entrando na cidade.</p>
+                <div class="phrase-box">
+                  <i class="fas fa-heart text-rose-500"></i>
+                  <strong>"Jesus, eu quero te receber no meu coração!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-emerald-50">
+            <span><i class="far fa-clock"></i> 10-15 min</span>
+            <button class="like-btn" data-day="Domingo de Ramos"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Segunda-feira -->
+        <article class="day-card card-segunda" data-day="segunda">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-pink-100 text-pink-600">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-pink-700">🌸 Segunda-feira Santa</h3>
+                <span class="card-theme text-pink-600">Maria unge Jesus</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Amar Jesus com gestos simples.</p>
+              <div class="activity-box bg-pink-50">
+                <h4><i class="fas fa-spray-can-sparkles text-pink-500"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>💨 Passe perfume leve nas mãos</li>
+                  <li>💝 Explique o gesto de amor de Maria</li>
+                </ul>
+                <div class="phrase-box">
+                  <i class="fas fa-kiss-wink-heart text-pink-500"></i>
+                  <strong>"Jesus, eu te amo!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-pink-50">
+            <span><i class="fas fa-hand-sparkles"></i> Gesto carinhoso</span>
+            <button class="like-btn" data-day="Segunda-feira Santa"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Terça e Quarta -->
+        <article class="day-card card-terca" data-day="tercaquarta">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-amber-100 text-amber-700">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-amber-800">🤝 Terça e Quarta-feira</h3>
+                <span class="card-theme text-amber-700">Traição de Judas / Fidelidade</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Ser fiel e verdadeiro.</p>
+              <div class="activity-box bg-amber-50">
+                <h4><i class="fas fa-book-open text-amber-600"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>📖 Conte a história com delicadeza</li>
+                  <li>🤝 Fale sobre amizade e confiança</li>
+                </ul>
+                <h4><i class="fas fa-gamepad text-amber-600"></i> Brincadeira:</h4>
+                <p>"Amigo de verdade" — elogiar uns aos outros</p>
+                <div class="phrase-box">
+                  <i class="fas fa-comment-dots text-amber-600"></i>
+                  <strong>"Jesus, me ajuda a ser um bom amigo!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-amber-50">
+            <span><i class="fas fa-user-friends"></i> Dinâmica em grupo</span>
+            <button class="like-btn" data-day="Terça e Quarta"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Quinta-feira -->
+        <article class="day-card card-quinta" data-day="quinta">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-purple-100 text-purple-700">
+                <i class="fas fa-bread-slice"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-purple-800">🍞 Quinta-feira Santa</h3>
+                <span class="card-theme text-purple-700">Última Ceia</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Partilhar e servir.</p>
+              <div class="activity-box bg-purple-50">
+                <h4><i class="fas fa-utensils text-purple-600"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>🍽️ Lanchinho especial em família</li>
+                  <li>🥖 Partilhem pão</li>
+                </ul>
+                <h4><i class="fas fa-hands-helping text-purple-600"></i> Atividade:</h4>
+                <p>Uma criança serve a outra</p>
+                <div class="phrase-box">
+                  <i class="fas fa-star text-purple-500"></i>
+                  <strong>"Jesus, quero aprender a partilhar!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-purple-50">
+            <span><i class="fas fa-wine-glass-alt"></i> Ceia familiar</span>
+            <button class="like-btn" data-day="Quinta-feira Santa"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Sexta-feira -->
+        <article class="day-card card-sexta" data-day="sexta">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-stone-200 text-stone-700">
+                <i class="fas fa-cross"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-stone-800">✝️ Sexta-feira Santa</h3>
+                <span class="card-theme text-stone-700">Morte de Jesus</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Amor que se doa.</p>
+              <div class="activity-box bg-stone-100">
+                <h4><i class="fas fa-candle-holder text-stone-600"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>🕯️ Momento calmo e respeitoso</li>
+                  <li>💡 Apague as luzes, acenda uma vela</li>
+                </ul>
+                <h4><i class="fas fa-pray text-stone-600"></i> Atividade:</h4>
+                <p>Cada um fala algo para melhorar (pedir perdão)</p>
+                <div class="phrase-box phrase-box-dark">
+                  <i class="fas fa-heart text-rose-400"></i>
+                  <strong>"Obrigado, Jesus, por me amar tanto."</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-stone-100">
+            <span><i class="fas fa-clock"></i> Silêncio e reflexão</span>
+            <button class="like-btn" data-day="Sexta-feira Santa"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <!-- Sábado -->
+        <article class="day-card card-sabado" data-day="sabado">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-indigo-100 text-indigo-700">
+                <i class="fas fa-moon"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-indigo-800">🕯️ Sábado Santo</h3>
+                <span class="card-theme text-indigo-700">Espera e silêncio</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message"><strong>Mensagem:</strong> Confiar em Deus.</p>
+              <div class="activity-box bg-indigo-50">
+                <h4><i class="fas fa-moon text-indigo-600"></i> Como fazer:</h4>
+                <ul class="activity-list">
+                  <li>🧘 Fiquem em silêncio alguns minutos</li>
+                  <li>🕯️ Acendam uma vela juntos</li>
+                </ul>
+                <h4><i class="fas fa-lightbulb text-indigo-600"></i> Atividade:</h4>
+                <p>Fazer vela de papel ou desenhar luz</p>
+                <div class="phrase-box">
+                  <i class="fas fa-star text-indigo-500"></i>
+                  <strong>"Jesus, eu confio em você!"</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-indigo-50">
+            <span><i class="fas fa-praying-hands"></i> Vigília</span>
+            <button class="like-btn" data-day="Sábado Santo"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: VIA SACRA (14 ESTAÇÕES)
+         ============================================ -->
+    <section id="via-sacra" class="section-via-sacra mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-red-100 text-red-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-road"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-red-800">✝️ Via Sacra Infantil</h2>
+          <p class="text-red-600 font-medium">O caminho de Jesus até a ressurreição • 14 estações</p>
+        </div>
+      </div>
+
+      <div
+        class="via-sacra-intro bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-6 mb-8 border-2 border-red-200">
+        <h3 class="text-xl font-bold text-red-800 mb-2">🙏 Como rezar a Via Sacra com crianças:</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>Faça <strong>uma estação por dia</strong> durante duas semanas</li>
+          <li>Ou <strong>sete estações</strong> por semana</li>
+          <li>Use imagens, gestos e momentos de silêncio</li>
+          <li>Termine sempre com esperança na ressurreição!</li>
+        </ul>
+      </div>
+
+      <div class="via-sacra-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- Estação 1 -->
+        <article class="estacao-card" data-estacao="1">
+          <div class="estacao-numero">I</div>
+          <div class="estacao-content">
+            <h4>Jesus é condenado à morte</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Jesus foi injustiçado, mas não reclamou. Ele nos
+              ensina a ter paciência.</p>
+            <div class="estacao-oracao">"Jesus, me ajude a aceitar quando as coisas são difíceis."</div>
+            <div class="estacao-gesto">🙏 Fazer sinal da cruz devagar</div>
+          </div>
+        </article>
+
+        <!-- Estação 2 -->
+        <article class="estacao-card" data-estacao="2">
+          <div class="estacao-numero">II</div>
+          <div class="estacao-content">
+            <h4>Jesus carrega a cruz</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> A cruz era pesada, mas Jesus aceitou. Nossas
+              dificuldades também têm valor.</p>
+            <div class="estacao-oracao">"Jesus, me dê forças para carregar meus problemas."</div>
+            <div class="estacao-gesto">💪 Flexionar os braços (peso)</div>
+          </div>
+        </article>
+
+        <!-- Estação 3 -->
+        <article class="estacao-card" data-estacao="3">
+          <div class="estacao-numero">III</div>
+          <div class="estacao-content">
+            <h4>Jesus cai pela primeira vez</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Jesus caiu, mas levantou. A gente também pode
+              levantar quando erra.</p>
+            <div class="estacao-oracao">"Jesus, quando eu cair, me ajude a levantar."</div>
+            <div class="estacao-gesto">🧎 Ajoelhar e levantar</div>
+          </div>
+        </article>
+
+        <!-- Estação 4 -->
+        <article class="estacao-card" data-estacao="4">
+          <div class="estacao-numero">IV</div>
+          <div class="estacao-content">
+            <h4>Jesus encontra sua Mãe</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Maria sofria vendo Jesus sofrer. Mães e pais
+              sempre sofrem com nossas dores.</p>
+            <div class="estacao-oracao">"Obrigado, Jesus, por ter uma família que me ama."</div>
+            <div class="estacao-gesto">🤗 Abraço na família</div>
+          </div>
+        </article>
+
+        <!-- Estação 5 -->
+        <article class="estacao-card" data-estacao="5">
+          <div class="estacao-numero">V</div>
+          <div class="estacao-content">
+            <h4>Simão ajuda Jesus</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Simão não conhecia Jesus, mas ajudou. Podemos
+              ajudar quem precisa.</p>
+            <div class="estacao-oracao">"Jesus, me use para ajudar os outros."</div>
+            <div class="estacao-gesto">🤝 Apertar a mão de alguém</div>
+          </div>
+        </article>
+
+        <!-- Estação 6 -->
+        <article class="estacao-card" data-estacao="6">
+          <div class="estacao-numero">VI</div>
+          <div class="estacao-content">
+            <h4>Verônica enxuga o rosto de Jesus</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Um gesto pequeno de carinho faz muita diferença!
+            </p>
+            <div class="estacao-oracao">"Jesus, me ensine a ser caridoso."</div>
+            <div class="estacao-gesto">🧻 Enxugar o rosto (gesto)</div>
+          </div>
+        </article>
+
+        <!-- Estação 7 -->
+        <article class="estacao-card" data-estacao="7">
+          <div class="estacao-numero">VII</div>
+          <div class="estacao-content">
+            <h4>Jesus cai pela segunda vez</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Mesmo cansado, Jesus continuou. Não desistimos
+              quando é difícil.</p>
+            <div class="estacao-oracao">"Jesus, não deixe eu desistir nunca."</div>
+            <div class="estacao-gesto">🚶‍♂️ Dar três passos firmes</div>
+          </div>
+        </article>
+
+        <!-- Estação 8 -->
+        <article class="estacao-card" data-estacao="8">
+          <div class="estacao-numero">VIII</div>
+          <div class="estacao-content">
+            <h4>Jesus encontra as mulheres</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Jesus confortou quem chorava por ele. Pensamos nos
+              outros antes de nós.</p>
+            <div class="estacao-oracao">"Jesus, me ensine a consolar quem está triste."</div>
+            <div class="estacao-gesto">😢 Enxugar uma lágrima (gesto)</div>
+          </div>
+        </article>
+
+        <!-- Estação 9 -->
+        <article class="estacao-card" data-estacao="9">
+          <div class="estacao-numero">IX</div>
+          <div class="estacao-content">
+            <h4>Jesus cai pela terceira vez</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Jesus estava muito fraco, mas Deus deu forças.
+              Pedimos ajuda quando precisamos.</p>
+            <div class="estacao-oracao">"Jesus, quando eu estiver fraco, me sustente."</div>
+            <div class="estacao-gesto">🙌 Levantar as mãos (pedir ajuda)</div>
+          </div>
+        </article>
+
+        <!-- Estação 10 -->
+        <article class="estacao-card" data-estacao="10">
+          <div class="estacao-numero">X</div>
+          <div class="estacao-content">
+            <h4>Jesus é despojado</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Tiraram tudo de Jesus, menos sua dignidade.
+              Valorizamos o que somos, não o que temos.</p>
+            <div class="estacao-oracao">"Jesus, me ensine a valorizar as pessoas."</div>
+            <div class="estacao-gesto">👕 Tocar o coração (humildade)</div>
+          </div>
+        </article>
+
+        <!-- Estação 11 -->
+        <article class="estacao-card" data-estacao="11">
+          <div class="estacao-numero">XI</div>
+          <div class="estacao-content">
+            <h4>Jesus é pregado na cruz</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Jesus perdoou até quem machucou ele. Perdoamos
+              quem nos magoa.</p>
+            <div class="estacao-oracao">"Jesus, me dê um coração que perdoa."</div>
+            <div class="estacao-gesto">✝️ Beijar a cruz (ou imagem)</div>
+          </div>
+        </article>
+
+        <!-- Estação 12 -->
+        <article class="estacao-card" data-estacao="12">
+          <div class="estacao-numero">XII</div>
+          <div class="estacao-content">
+            <h4>Jesus morre na cruz</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Jesus deu a vida por amor. O amor maior é doar-se
+              pelos outros.</p>
+            <div class="estacao-oracao">"Obrigado, Jesus, por me amar até o fim."</div>
+            <div class="estacao-gesto">🕯️ Acender vela / silêncio</div>
+          </div>
+        </article>
+
+        <!-- Estação 13 -->
+        <article class="estacao-card" data-estacao="13">
+          <div class="estacao-numero">XIII</div>
+          <div class="estacao-content">
+            <h4>Jesus é descido da cruz</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Maria segurou Jesus com amor. Cuidamos com carinho
+              de quem amamos.</p>
+            <div class="estacao-oracao">"Jesus, me ensine a cuidar da minha família."</div>
+            <div class="estacao-gesto">🤲 Mãos abertas (receber)</div>
+          </div>
+        </article>
+
+        <!-- Estação 14 -->
+        <article class="estacao-card" data-estacao="14">
+          <div class="estacao-numero estacao-final">XIV</div>
+          <div class="estacao-content">
+            <h4>Jesus é sepultado</h4>
+            <p class="estacao-reflexao"><strong>Para pensar:</strong> Parece que tudo acabou, mas... a história
+              continua! A ressurreição vem!</p>
+            <div class="estacao-oracao">"Jesus, eu espero em Ti. Aleluia virá!"</div>
+            <div class="estacao-gesto">🌅 Olhar para o horizonte (esperança)</div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Progresso da Via Sacra -->
+      <div class="via-sacra-progress mt-8 bg-white rounded-2xl p-6 shadow-lg">
+        <h4 class="text-center font-bold text-red-800 mb-4">📊 Seu Progresso na Via Sacra</h4>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="viaSacraProgress"></div>
+        </div>
+        <p class="text-center text-sm text-gray-600 mt-2">
+          <span id="estacoesCompletadas">0</span> de 14 estações visitadas
+        </p>
+        <button id="resetViaSacra" class="btn-reset mt-4 mx-auto block">
+          <i class="fas fa-redo"></i> Recomeçar Via Sacra
+        </button>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: TRÍDUO PASCAL
+         ============================================ -->
+    <section id="triduo" class="section-triduo mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-indigo-100 text-indigo-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-indigo-800">🌙 Tríduo Pascal</h2>
+          <p class="text-indigo-600 font-medium">Os três dias mais sagrados: Quinta, Sexta e Sábado</p>
+        </div>
+      </div>
+
+      <div
+        class="triduo-container bg-gradient-to-b from-purple-900 via-indigo-900 to-slate-900 rounded-3xl p-8 text-white">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+          <div class="triduo-dia text-center">
+            <div class="triduo-icon text-5xl mb-4">🍞</div>
+            <h3 class="text-xl font-bold mb-2">Quinta-feira</h3>
+            <p class="text-sm opacity-90">Última Ceia</p>
+            <p class="text-xs mt-2 opacity-75">Lava-pés • Eucaristia</p>
+          </div>
+
+          <div class="triduo-dia text-center border-x border-white/20">
+            <div class="triduo-icon text-5xl mb-4">✝️</div>
+            <h3 class="text-xl font-bold mb-2">Sexta-feira</h3>
+            <p class="text-sm opacity-90">Paixão e Morte</p>
+            <p class="text-xs mt-2 opacity-75">Adoração da Cruz • Silêncio</p>
+          </div>
+
+          <div class="triduo-dia text-center">
+            <div class="triduo-icon text-5xl mb-4">🕯️</div>
+            <h3 class="text-xl font-bold mb-2">Sábado</h3>
+            <p class="text-sm opacity-90">Vigília Pascal</p>
+            <p class="text-xs mt-2 opacity-75">Espera • Luz • Água Benta</p>
+          </div>
+
+        </div>
+
+        <div class="triduo-mensagem mt-8 text-center p-4 bg-white/10 rounded-xl">
+          <p class="text-lg italic">"Morreram as trevas, nasceu a luz!"</p>
+          <p class="text-sm mt-2 opacity-75">A Vigília Pascal começa no Sábado à noite</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: TEMPO DA PÁSCOA (50 DIAS)
+         ============================================ -->
+    <section id="pascoa" class="section-pascoa mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-yellow-100 text-yellow-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-sun"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-yellow-700">☀️ Tempo da Páscoa</h2>
+          <p class="text-yellow-600 font-medium">50 dias de alegria • Jesus vive!</p>
+        </div>
+      </div>
+
+      <!-- Domingo de Páscoa -->
+      <article class="day-card card-pascoa mb-8" data-day="pascoa">
+        <div class="card-glow pascoa-glow"></div>
+        <div class="card-content pascoa-content">
+          <div class="pascoa-grid grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <div class="card-header">
+                <div class="card-icon bg-yellow-100 text-yellow-600 text-4xl">
+                  <i class="fas fa-sun"></i>
+                </div>
+                <div>
+                  <h3 class="card-title text-yellow-700 text-3xl">🌈 Domingo de Páscoa</h3>
+                  <span class="card-theme text-yellow-600 text-lg">Ressurreição</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-message text-xl"><strong class="text-green-600">Mensagem:</strong> Jesus vive! Aleluia!
+                </p>
+                <div class="activity-box bg-yellow-50">
+                  <h4><i class="fas fa-party-horn text-yellow-600"></i> Como fazer:</h4>
+                  <ul class="activity-list">
+                    <li>🎉 Celebração alegre em família</li>
+                    <li>🥚 Caça aos ovos (vida nova)</li>
+                    <li>🌅 Amanhecer cedo para ver o sol nascer</li>
+                  </ul>
+                  <h4><i class="fas fa-palette text-yellow-600"></i> Atividade:</h4>
+                  <p>Pintar ovos, fazer desenhos coloridos</p>
+                  <div class="phrase-box phrase-box-pascoa">
+                    <i class="fas fa-sun text-yellow-500"></i>
+                    <strong>"Jesus vive! Aleluia! Aleluia!"</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pascoa-visual text-center">
+              <i class="fas fa-egg text-9xl text-yellow-400 float-animation"></i>
+              <div class="confetti-container">
+                <span class="confetti">🎉</span>
+                <span class="confetti">✨</span>
+                <span class="confetti">🌟</span>
+                <span class="confetti">💛</span>
+                <span class="confetti">🕊️</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer bg-yellow-100">
+          <span><i class="fas fa-church"></i> Celebração em família</span>
+          <button class="like-btn" data-day="Domingo de Páscoa"><i class="far fa-heart"></i><span
+              class="like-count">0</span><span>aleluia!</span></button>
+        </div>
+      </article>
+
+      <!-- Domingos da Páscoa -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="day-card card-pascoa-2" data-day="pascoa2">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-green-100 text-green-600">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-green-700">2º Domingo</h3>
+                <span class="card-theme text-green-600">Divina Misericórdia</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message">Jesus aparece a Tomé. Tocou nas chagas.</p>
+              <div class="activity-box bg-green-50">
+                <h4>Atividade:</h4>
+                <p>🖐️ Fazer "chagas" com massinha • Confiança em Deus</p>
+                <div class="phrase-box">"Meu Senhor e meu Deus!"</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-green-50">
+            <button class="like-btn" data-day="Páscoa 2"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <article class="day-card card-pascoa-3" data-day="pascoa3">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-blue-100 text-blue-600">
+                <i class="fas fa-fish"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-blue-700">3º Domingo</h3>
+                <span class="card-theme text-blue-600">Pesca Milagrosa</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message">Jesus prepara peixe no fogo. Reabilita Pedro.</p>
+              <div class="activity-box bg-blue-50">
+                <h4>Atividade:</h4>
+                <p>🐟 Desenhar peixes • Café da manhã especial</p>
+                <div class="phrase-box">"Amas-me mais que estes?"</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-blue-50">
+            <button class="like-btn" data-day="Páscoa 3"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <article class="day-card card-pascoa-4" data-day="pascoa4">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-purple-100 text-purple-600">
+                <i class="fas fa-sheep"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-purple-700">4º Domingo</h3>
+                <span class="card-theme text-purple-600">Bom Pastor</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message">Jesus é o pastor que cuida e protege.</p>
+              <div class="activity-box bg-purple-50">
+                <h4>Atividade:</h4>
+                <p>🐑 Fazer ovelhinha de algodão • Cuidar de alguém</p>
+                <div class="phrase-box">"Eu sou o Bom Pastor."</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-purple-50">
+            <button class="like-btn" data-day="Páscoa 4"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <article class="day-card card-pascoa-5" data-day="pascoa5">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-orange-100 text-orange-600">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-orange-700">5º Domingo</h3>
+                <span class="card-theme text-orange-600">A Videira</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message">Jesus é a videira, nós os ramos.</p>
+              <div class="activity-box bg-orange-50">
+                <h4>Atividade:</h4>
+                <p>🌿 Plantar algo • Ficar perto de Jesus</p>
+                <div class="phrase-box">"Sem mim nada podeis fazer."</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-orange-50">
+            <button class="like-btn" data-day="Páscoa 5"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <article class="day-card card-pascoa-6" data-day="pascoa6">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-pink-100 text-pink-600">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-pink-700">6º Domingo</h3>
+                <span class="card-theme text-pink-600">Amor aos Discípulos</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message">Jesus reza por nós. Nos ama até o fim.</p>
+              <div class="activity-box bg-pink-50">
+                <h4>Atividade:</h4>
+                <p>💝 Orar pela família • Fazer cartões de amor</p>
+                <div class="phrase-box">"Que todos sejam um."</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-pink-50">
+            <button class="like-btn" data-day="Páscoa 6"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+        <article class="day-card card-ascensao" data-day="ascensao">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-icon bg-sky-100 text-sky-600">
+                <i class="fas fa-cloud-sun"></i>
+              </div>
+              <div>
+                <h3 class="card-title text-sky-700">Ascensão</h3>
+                <span class="card-theme text-sky-600">Jesus volta ao céu</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-message">Jesus sobe aos céus. Nos promete o Espírito Santo.</p>
+              <div class="activity-box bg-sky-50">
+                <h4>Atividade:</h4>
+                <p>☁️ Olhar para o céu • Soltar balão (se possível)</p>
+                <div class="phrase-box">"Vou preparar lugar para vós."</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-sky-50">
+            <button class="like-btn" data-day="Ascensão"><i class="far fa-heart"></i><span
+                class="like-count">0</span></button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: PENTECOSTES
+         ============================================ -->
+    <section id="pentecostes" class="section-pentecostes mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-orange-100 text-orange-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-fire"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-orange-700">🔥 Pentecostes</h2>
+          <p class="text-orange-600 font-medium">O Espírito Santo desce • A Igreja nasce</p>
+        </div>
+      </div>
+
+      <div
+        class="pentecostes-card bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden">
+        <!-- Elementos decorativos de fogo -->
+        <div class="fire-decorations">
+          <span class="fire-particle">🔥</span>
+          <span class="fire-particle">✨</span>
+          <span class="fire-particle">🕊️</span>
+          <span class="fire-particle">💨</span>
+        </div>
+
+        <div class="relative z-10">
+          <div class="text-center mb-8">
+            <i class="fas fa-dove text-8xl mb-4 animate-bounce"></i>
+            <h3 class="text-3xl font-bold mb-2">Vinde, Espírito Santo!</h3>
+            <p class="text-xl opacity-90">A festa que encerra o Tempo da Páscoa</p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="pentecostes-content bg-white/20 backdrop-blur-sm rounded-2xl p-6">
+              <h4 class="text-xl font-bold mb-4"><i class="fas fa-wind mr-2"></i>O que aconteceu:</h4>
+              <ul class="space-y-2">
+                <li>🕊️ Vento forte encheu a casa</li>
+                <li>🔥 Línguas de fogo sobre os apóstolos</li>
+                <li>🗣️ Começaram a falar outras línguas</li>
+                <li>❤️ Maria estava no meio deles</li>
+              </ul>
+            </div>
+
+            <div class="pentecostes-atividade bg-white/20 backdrop-blur-sm rounded-2xl p-6">
+              <h4 class="text-xl font-bold mb-4"><i class="fas fa-hands mr-2"></i>Comemoração:</h4>
+              <ul class="space-y-2">
+                <li>🎈 Soltar balões vermelhos (fogo)</li>
+                <li>🍰 Bolo com velas (línguas de fogo)</li>
+                <li>🙏 Invocação ao Espírito Santo</li>
+                <li>🎵 Cantar "Vinde, Espírito Santo"</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pentecostes-oracao mt-8 text-center bg-white/30 rounded-2xl p-6">
+            <h4 class="text-xl font-bold mb-4">🙏 Oração de Pentecostes</h4>
+            <p class="text-lg italic">
+              "Vinde, Espírito Santo!<br>
+              Enchei os corações dos vossos fiéis<br>
+              e acendei neles o fogo do vosso amor.<br>
+              Enviai o vosso Espírito e tudo será criado,<br>
+              e renovareis a face da terra."
+            </p>
+            <p class="mt-4 font-bold">Amém! Aleluia!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEÇÃO: DICAS E RECURSOS
+         ============================================ -->
+    <section id="dicas" class="section-dicas mb-20">
+      <div class="section-header flex items-center gap-4 mb-8">
+        <div class="section-icon bg-amber-100 text-amber-600 text-4xl p-4 rounded-2xl">
+          <i class="fas fa-lightbulb"></i>
+        </div>
+        <div>
+          <h2 class="text-4xl font-bold text-amber-800">💡 Dicas e Recursos</h2>
+          <p class="text-amber-600 font-medium">Para tornar a jornada ainda mais especial</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Dica 1 -->
+        <div class="dica-card bg-white rounded-2xl p-6 shadow-lg border-2 border-amber-100">
+          <div class="dica-icon text-4xl mb-4">🏠</div>
+          <h3 class="text-xl font-bold text-amber-800 mb-2">Cantinho da Oração</h3>
+          <p class="text-gray-600">Monte um espaço especial em casa com:</p>
+          <ul class="mt-2 text-sm text-gray-500 space-y-1">
+            <li>✝️ Cruz ou imagem sagrada</li>
+            <li>🕯️ Vela (com supervisão)</li>
+            <li>📖 Bíblia infantil</li>
+            <li>🌿 Elementos da natureza</li>
+          </ul>
+        </div>
+
+        <!-- Dica 2 -->
+        <div class="dica-card bg-white rounded-2xl p-6 shadow-lg border-2 border-amber-100">
+          <div class="dica-icon text-4xl mb-4">📅</div>
+          <h3 class="text-xl font-bold text-amber-800 mb-2">Calendário Visual</h3>
+          <p class="text-gray-600">Crie um calendário com as crianças:</p>
+          <ul class="mt-2 text-sm text-gray-500 space-y-1">
+            <li>🎨 Colorir cada dia cumprido</li>
+            <li>⭐ Adesivos para conquistas</li>
+            <li>🎯 Metas semanais</li>
+            <li>🎉 Comemorações especiais</li>
+          </ul>
+        </div>
+
+        <!-- Dica 3 -->
+        <div class="dica-card bg-white rounded-2xl p-6 shadow-lg border-2 border-amber-100">
+          <div class="dica-icon text-4xl mb-4">🎵</div>
+          <h3 class="text-xl font-bold text-amber-800 mb-2">Músicas e Cantos</h3>
+          <p class="text-gray-600">Sugestões de músicas para cada tempo:</p>
+          <ul class="mt-2 text-sm text-gray-500 space-y-1">
+            <li>🙏 Quaresma: "Convertei-vos"</li>
+            <li>🌿 Ramos: "Hosana"</li>
+            <li>✝️ Sexta: "Crux Fidelis"</li>
+            <li>☀️ Páscoa: "Aleluia"</li>
+          </ul>
+        </div>
+
+        <!-- Dica 4 -->
+        <div class="dica-card bg-white rounded-2xl p-6 shadow-lg border-2 border-amber-100">
+          <div class="dica-icon text-4xl mb-4">🎨</div>
+          <h3 class="text-xl font-bold text-amber-800 mb-2">Atividades Criativas</h3>
+          <p class="text-gray-600">Ideias para diferentes idades:</p>
+          <ul class="mt-2 text-sm text-gray-500 space-y-1">
+            <li>👶 2-4 anos: Massinha, desenhos</li>
+            <li>🧒 5-7 anos: Recortes, colagens</li>
+            <li>👦 8-11 anos: Teatro, leitura</li>
+            <li>👨‍👩‍👧 Família: Momentos juntos</li>
+          </ul>
+        </div>
+
+        <!-- Dica 5 -->
+        <div class="dica-card bg-white rounded-2xl p-6 shadow-lg border-2 border-amber-100">
+          <div class="dica-icon text-4xl mb-4">📖</div>
+          <h3 class="text-xl font-bold text-amber-800 mb-2">Leituras Bíblicas</h3>
+          <p class="text-gray-600">Textos adaptados para crianças:</p>
+          <ul class="mt-2 text-sm text-gray-500 space-y-1">
+            <li>📚 Bíblia Sagrada Infantil</li>
+            <li>📖 "Minha Primeira Bíblia"</li>
+            <li>🎭 Histórias em quadrinhos</li>
+            <li>📱 Apps bíblicos infantis</li>
+          </ul>
+        </div>
+
+        <!-- Dica 6 -->
+        <div class="dica-card bg-white rounded-2xl p-6 shadow-lg border-2 border-amber-100">
+          <div class="dica-icon text-4xl mb-4">🤝</div>
+          <h3 class="text-xl font-bold text-amber-800 mb-2">Ação Social</h3>
+          <p class="text-gray-600">Praticar a caridade em família:</p>
+          <ul class="mt-2 text-sm text-gray-500 space-y-1">
+            <li>🥫 Doação de alimentos</li>
+            <li>👕 Campanha do agasalho</li>
+            <li>🏥 Visita a hospital/asilos</li>
+            <li>💝 Cartões para idosos</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Download do Roteiro -->
+      <div
+        class="download-section mt-12 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl p-8 text-white text-center">
+        <i class="fas fa-download text-5xl mb-4"></i>
+        <h3 class="text-2xl font-bold mb-2">📥 Baixe o Roteiro Completo</h3>
+        <p class="mb-6">Imprima e acompanhe dia a dia com seus filhos</p>
+        <button
+          class="download-btn bg-white text-emerald-600 px-8 py-3 rounded-full font-bold hover:bg-emerald-50 transition"
+          onclick="window.print()">
+          <i class="fas fa-print mr-2"></i>Imprimir Página
+        </button>
+      </div>
+    </section>
+
+    <!-- Versículo Final -->
+    <div class="versiculo-final text-center py-16">
+      <i class="fas fa-bible text-6xl text-emerald-500 mb-6 animate-bounce"></i>
+      <blockquote class="text-2xl md:text-3xl italic text-gray-700 max-w-3xl mx-auto leading-relaxed">
+        "Deixai vir a mim os pequeninos, <br>
+        porque deles é o Reino dos Céus."
+      </blockquote>
+      <cite class="block mt-4 text-lg font-semibold text-emerald-600">— Mateus 19:14</cite>
+
+      <div class="mt-8 flex justify-center gap-4">
+        <span class="versiculo-icon">🌿</span>
+        <span class="versiculo-icon">✝️</span>
+        <span class="versiculo-icon">🕊️</span>
+        <span class="versiculo-icon">🔥</span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer bg-gradient-to-r from-emerald-900 to-teal-900 text-white py-12 relative">
+    <div class="container mx-auto px-4 text-center">
+      <div class="footer-icons text-4xl mb-6 flex justify-center gap-4">
+        <i class="fas fa-pray hover:text-purple-300 transition"></i>
+        <i class="fas fa-cross hover:text-amber-300 transition"></i>
+        <i class="fas fa-sun hover:text-yellow-300 transition"></i>
+        <i class="fas fa-fire hover:text-orange-300 transition"></i>
+      </div>
+
+      <p class="text-xl mb-2">
+        <i class="fas fa-hands-praying mr-2"></i>
+        Caminho da Fé — Da Quaresma a Pentecostes
+      </p>
+      <p class="text-emerald-200 mb-6">Vivencie a fé com alegria e amor em família</p>
+
+      <div class="footer-links flex flex-wrap justify-center gap-6 text-sm mb-6">
+        <a href="#quaresma" class="hover:text-emerald-300 transition">Quaresma</a>
+        <a href="#semana-santa" class="hover:text-emerald-300 transition">Semana Santa</a>
+        <a href="#via-sacra" class="hover:text-emerald-300 transition">Via Sacra</a>
+        <a href="#pascoa" class="hover:text-emerald-300 transition">Páscoa</a>
+        <a href="#pentecostes" class="hover:text-emerald-300 transition">Pentecostes</a>
+      </div>
+
+      <p class="text-emerald-400 text-sm">
+        🌿 Que o Espírito Santo ilumine sua família 🌟
+      </p>
+    </div>
+  </footer>
+
+  <!-- Botão Voltar ao Topo -->
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Botão Instalar PWA -->
+  <button id="installBtn" class="install-btn hidden">
+    <i class="fas fa-download"></i>
+    <span>Instalar App</span>
+  </button>
+
+  <!-- JavaScript Modular -->
+  <script src="js/via-sacra.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</body>
+
+</html>
