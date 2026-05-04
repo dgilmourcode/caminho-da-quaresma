@@ -1,0 +1,934 @@
+[
+  {
+    "id": "cinzas",
+    "title": "Quarta-feira de Cinzas",
+    "theme": "Início da Quaresma",
+    "message": "Voltar para Deus de coração.",
+    "verse": "Mt 4:17",
+    "verseText": "\"Convertei-vos e crede no Evangelho!\"",
+    "reflection": "As cinzas nos lembram que somos pó e ao pó voltaremos. É um tempo de conversão, de voltar nosso coração para Deus com sinceridade.",
+    "description": "A Quarta-feira de Cinzas marca o início da Quaresma, um tempo de 40 dias de preparação para a Páscoa. É um dia de jejum e abstinência, onde somos chamados à conversão.",
+    "activities": [
+      "✝️ Receba as cinzas na igreja (ou faça em casa com papel queimado)",
+      "📝 Escreva o que quer mudar este ano",
+      "🙏 Momento de silêncio pedindo perdão"
+    ],
+    "suggestions": [
+      "Participe da missa das cinzas",
+      "Faça um propósito concreto para a Quaresma",
+      "Comece um diário de oração"
+    ],
+    "image": "https://images.unsplash.com/photo-1641264720328-d56fe741d450?w=600&h=400&fit=crop",
+    "period": "quaresma",
+    "week": 0
+  },
+  {
+    "id": "1-domingo",
+    "title": "1º Domingo",
+    "theme": "Tentação no deserto",
+    "message": "Jesus venceu as tentações. Nós também podemos!",
+    "verse": "Mt 4:4",
+    "verseText": "\"Não só de pão vive o homem, mas de toda palavra que sai da boca de Deus.\"",
+    "reflection": "Jesus foi tentado no deserto por 40 dias. Ele venceu usando a Palavra de Deus. Nós também podemos vencer nossas tentações com oração e leitura da Bíblia.",
+    "description": "No primeiro domingo da Quaresma, meditamos sobre as tentações de Jesus no deserto. Ele nos ensina que a oração e a Palavra de Deus são nossas armas contra o mal.",
+    "activities": [
+      "🏜️ Monte um \"deserto\" com almofadas",
+      "🤔 Fale sobre tentações do dia a dia",
+      "💪 Faça promessas de superação"
+    ],
+    "suggestions": [
+      "Memorize um versículo esta semana",
+      "Jejum de TV/redes sociais por 1 dia",
+      "Leia Mt 4:1-11 em família"
+    ],
+    "image": "https://images.unsplash.com/photo-1480342740034-d149f44bbeac?q=80&w=600&h=400&fit=crop",
+    "period": "quaresma",
+    "week": 1
+  },
+  {
+    "id": "2-domingo",
+    "title": "2º Domingo",
+    "theme": "Transfiguração",
+    "message": "Jesus brilha! Ele é o Filho de Deus.",
+    "verse": "Mt 17:5",
+    "verseText": "\"Este é o meu Filho amado, em quem me comprazo. Escutai-o!\"",
+    "reflection": "Jesus se transfigura no monte e mostra sua glória divina. É um momento de revelação que fortalece a fé dos discípulos.",
+    "description": "No segundo domingo, contemplamos Jesus transfigurado. Sua luz nos chama a transformar nossa vida através da oração e dos sacramentos.",
+    "activities": [
+      "✨ Faça estrelas de papel brilhante",
+      "🌟 Conte qualidades brilhantes de cada membro da família",
+      "📖 Leia a história da transfiguração (Mt 17:1-9)"
+    ],
+    "suggestions": [
+      "Faça uma oração ao ar livre",
+      "Contemple a natureza como obra de Deus",
+      "Tire uma foto da família como lembrança"
+    ],
+    "image": "https://images.unsplash.com/photo-1555679432-b7b7a5e3680c?q=80&w=600&h=400&fit=crop",
+    "period": "quaresma",
+    "week": 2
+  },
+  {
+    "id": "3-domingo",
+    "title": "3º Domingo",
+    "theme": "A Samaritana",
+    "message": "Jesus nos dá água viva (seu amor).",
+    "verse": "Jo 4:14",
+    "verseText": "\"A água que eu darei se tornará nele uma fonte de água a jorrar para a vida eterna.\"",
+    "reflection": "Jesus encontra a samaritana no poço e lhe oferece água viva. Ele conhece nosso coração e nos oferece sua graça sem medida.",
+    "description": "Jesus dialoga com a samaritana e revela ser o Messias. Ele nos convida a beber da água viva que é seu amor e sua palavra.",
+    "activities": [
+      "💧 Experimento com água colorida em copos transparentes",
+      "🚰 Fale sobre a importância da água na vida",
+      "❤️ Compare: água = amor de Jesus que sacia nossa sede"
+    ],
+    "suggestions": [
+      "Beba água durante o dia lembrando de Jesus",
+      "Converse com alguém que está afastado",
+      "Leia Jo 4:1-42"
+    ],
+    "image": "https://images.unsplash.com/photo-1584285375354-5426026af8f1?q=80&w=600&h=400&fit=crop",
+    "period": "quaresma",
+    "week": 3
+  },
+  {
+    "id": "4-domingo",
+    "title": "4º Domingo",
+    "theme": "O Cego de Nascença",
+    "message": "Jesus nos cura e nos faz ver com amor.",
+    "verse": "Jo 9:25",
+    "verseText": "\"Uma coisa eu sei: eu era cego e agora vejo!\"",
+    "reflection": "Jesus cura o cego de nascença abrindo seus olhos físicos e espirituais. Ele nos convida a enxergar o mundo com os olhos da fé.",
+    "description": "A cura do cego nos ensina que Jesus é a luz do mundo. A fé nos faz enxergar além das aparências.",
+    "activities": [
+      "👁️ Jogo de vendar os olhos (exercício de confiança)",
+      "🎨 Desenhe coisas bonitas que você \"enxerga\" com o coração",
+      "🙏 Agradeça pela visão e pela fé"
+    ],
+    "suggestions": [
+      "Visite alguém com deficiência visual",
+      "Aprenda sobre acessibilidade",
+      "Leia Jo 9:1-41"
+    ],
+    "image": "https://images.unsplash.com/photo-1717176870150-7f2c6df15eb6?q=80&w=600&h=400&fit=crop",
+    "period": "quaresma",
+    "week": 4
+  },
+  {
+    "id": "5-domingo",
+    "title": "5º Domingo",
+    "theme": "Ressurreição de Lázaro",
+    "message": "Jesus tem poder sobre a morte. Ele é a vida!",
+    "verse": "Jo 11:25",
+    "verseText": "\"Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá.\"",
+    "reflection": "Jesus ressuscita Lázaro, demonstrando seu poder sobre a morte. Ele é a vida eterna que nos espera.",
+    "description": "A ressurreição de Lázaro é sinal da vitória de Jesus sobre a morte. Ele nos chama à vida nova.",
+    "activities": [
+      "🌱 Plante uma semente (símbolo de vida nova)",
+      "💝 Visite alguém que precisa de carinho e esperança",
+      "😊 Sorria para quem está triste e ofereça esperança"
+    ],
+    "suggestions": [
+      "Cuide de uma plantinha",
+      "Ore pelos que estão doentes",
+      "Leia Jo 11:1-45"
+    ],
+    "image": "https://images.unsplash.com/photo-1720540545556-25e05e801c3c?q=80&w=600&h=400&fit=crop",
+    "period": "quaresma",
+    "week": 5
+  },
+  {
+    "id": "ramos",
+    "title": "Domingo de Ramos",
+    "theme": "Entrada Triunfal em Jerusalém",
+    "message": "Jesus é nosso Rei de amor.",
+    "verse": "Mt 21:9",
+    "verseText": "\"Hosana ao Filho de Davi! Bendito o que vem em nome do Senhor!\"",
+    "reflection": "Jesus entra em Jerusalém montado em um jumentinho, recebido com ramos e aclamações. Ele é o Rei manso e humilde de coração.",
+    "description": "Iniciamos a Semana Santa celebrando a entrada triunfal de Jesus. Ele vem como Rei, mas seu reino é de amor e paz.",
+    "activities": [
+      "🌿 Faça raminhos com papel verde ou folhas naturais",
+      "🏠 Caminhem pela casa dizendo: \"Hosana! Viva Jesus!\"",
+      "🎨 Desenhe Jesus entrando na cidade"
+    ],
+    "suggestions": [
+      "Participe da procissão de Ramos",
+      "Guarde os ramos bentos",
+      "Leia Mt 21:1-11"
+    ],
+    "image": "https://images.unsplash.com/photo-1711634998612-68a22cddb3c4?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "segunda",
+    "title": "Segunda-feira Santa",
+    "theme": "Maria unge Jesus",
+    "message": "Amar Jesus com gestos simples.",
+    "verse": "Jo 12:3",
+    "verseText": "\"Maria tomou uma libra de perfume de nardo puro, de grande valor, e ungiu os pés de Jesus.\"",
+    "reflection": "Maria de Betânia unge Jesus com perfume precioso. É um gesto de amor generoso e desprendido.",
+    "description": "Maria demonstra seu amor a Jesus com um gesto caro e significativo. Ela nos ensina a dar o melhor a Cristo.",
+    "activities": [
+      "💨 Passe perfume leve nas mãos e agradeça",
+      "💝 Explique o gesto de amor de Maria",
+      "🙏 Faça uma oração de gratidão a Jesus"
+    ],
+    "suggestions": [
+      "Faça um gesto generoso hoje",
+      "Doe algo que você gosta",
+      "Leia Jo 12:1-11"
+    ],
+    "image": "https://images.unsplash.com/photo-1544967082-d9d3fdd36605?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "terca",
+    "title": "Terça-feira Santa",
+    "theme": "Traição de Judas",
+    "message": "Ser fiel e verdadeiro.",
+    "verse": "Jo 13:21",
+    "verseText": "\"Em verdade, em verdade vos digo: um de vós me entregará.\"",
+    "reflection": "Jesus anuncia a traição de Judas. A fidelidade é essencial no seguimento a Cristo.",
+    "description": "Judas trai Jesus por 30 moedas. Precisamos examinar nossa fidelidade a Cristo.",
+    "activities": [
+      "📖 Conte a história com delicadeza",
+      "🤝 Fale sobre amizade e confiança",
+      "👥 Brincadeira: \"Amigo de verdade\" — elogiar uns aos outros"
+    ],
+    "suggestions": [
+      "Reze pelos que traíram sua confiança",
+      "Perdoe quem te magoou",
+      "Leia Mt 26:14-25"
+    ],
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "quarta",
+    "title": "Quarta-feira Santa",
+    "theme": "Dia de Silêncio e Preparação",
+    "message": "Último dia antes da Paixão. Momento de oração.",
+    "verse": "Mt 26:38",
+    "verseText": "\"Minha alma está triste até a morte. Ficai aqui e vigiai comigo.\"",
+    "reflection": "Jesus pede aos discípulos que vigiem com ele. É tempo de silêncio e preparação interior.",
+    "description": "Preparamos nosso coração para os dias santos. O silêncio nos ajuda a ouvir Deus.",
+    "activities": [
+      "🕯️ Acenda uma vela em oração",
+      "📿 Reze o terço meditando a Paixão",
+      "🤫 Fique em silêncio por 5 minutos em família"
+    ],
+    "suggestions": [
+      "Desligue TV e celular por um tempo",
+      "Faça um retiro em casa",
+      "Leia Mt 26:36-46"
+    ],
+    "image": "https://images.unsplash.com/photo-1499209974431-2761eb43a730?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "quinta",
+    "title": "Quinta-feira Santa",
+    "theme": "Última Ceia",
+    "message": "Partilhar e servir.",
+    "verse": "Jo 13:34",
+    "verseText": "\"Amai-vos uns aos outros como eu vos amei.\"",
+    "reflection": "Jesus institui a Eucaristia e lava os pés dos discípulos. Ele nos ensina que o amor se manifesta no serviço.",
+    "description": "Na Quinta-feira Santa, celebramos a instituição da Eucaristia e do Sacerdócio. Jesus nos dá o mandamento do amor.",
+    "activities": [
+      "🍽️ Lanchinho especial em família",
+      "🥖 Partilhem pão",
+      "👣 Uma criança serve a outra (gesto de humildade)"
+    ],
+    "suggestions": [
+      "Participe da missa da Ceia do Senhor",
+      "Visite o Santíssimo",
+      "Lave os pés de alguém como gesto de amor",
+      "Leia Jo 13:1-15"
+    ],
+    "image": "https://images.unsplash.com/photo-1532330383983-5c5213b97d36?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "sexta",
+    "title": "Sexta-feira Santa",
+    "theme": "Paixão e Morte",
+    "message": "Amor que se doa até o fim.",
+    "verse": "Jo 19:30",
+    "verseText": "\"Está consumado.\"",
+    "reflection": "Jesus morre na cruz por amor a nós. É dia de silêncio, jejum e meditação sobre o sacrifício de Cristo.",
+    "description": "A Sexta-feira Santa é o dia mais solene do ano cristão. Meditamos sobre a Paixão e Morte de Jesus.",
+    "activities": [
+      "🕯️ Momento calmo e respeitoso",
+      "💡 Apague as luzes e acenda uma vela",
+      "🤫 Cada um fala algo para melhorar (pedir perdão)"
+    ],
+    "suggestions": [
+      "Participe da celebração da Paixão",
+      "Faça jejum e abstinência de carne",
+      "Reze a Via Sacra",
+      "Viva em silêncio e oração",
+      "Leia Jo 18:1-19:42"
+    ],
+    "image": "https://images.unsplash.com/photo-1515169078309-8d9509396999?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "sabado",
+    "title": "Sábado Santo",
+    "theme": "Vigília Pascal",
+    "message": "Espera e esperança.",
+    "verse": "Sl 118:24",
+    "verseText": "\"Este é o dia que o Senhor fez para nós: alegremo-nos e exultemos.\"",
+    "reflection": "Dia de espera silenciosa junto ao sepulcro de Jesus. À noite, celebramos a Vigília Pascal.",
+    "description": "O Sábado Santo é dia de silêncio e espera. À noite, celebramos a Vigília Pascal com o fogo novo.",
+    "activities": [
+      "🧘 Fique em silêncio alguns minutos",
+      "🕯️ Acendam uma vela juntos",
+      "🎨 Faça vela de papel ou desenhe luz"
+    ],
+    "suggestions": [
+      "Participe da Vigília Pascal à noite",
+      "Renove suas promessas batismais",
+      "Prepare o coração para a alegria da Páscoa",
+      "Leia Mt 28:1-10"
+    ],
+    "image": "https://images.unsplash.com/photo-1499209974431-2761eb43a730?w=600&h=400&fit=crop",
+    "period": "semana",
+    "week": null
+  },
+  {
+    "id": "triduo-quinta",
+    "title": "Quinta-feira Santa",
+    "theme": "Instituição da Eucaristia",
+    "message": "Partilhar e servir com humildade.",
+    "verse": "Jo 13:34",
+    "verseText": "\"Amai-vos uns aos outros como eu vos amei.\"",
+    "reflection": "Jesus institui a Eucaristia e lava os pés dos discípulos. O amor se manifesta no serviço ao próximo.",
+    "description": "Na Quinta-feira Santa, Jesus celebra a Última Ceia com seus discípulos, institui a Eucaristia e o Sacerdócio, e nos dá o mandamento do amor.",
+    "events": [
+      {
+        "icon": "fa-utensils",
+        "name": "Última Ceia"
+      },
+      {
+        "icon": "fa-water",
+        "name": "Lava-pés"
+      },
+      {
+        "icon": "fa-church",
+        "name": "Eucaristia"
+      }
+    ],
+    "activities": [
+      "🍽️ Ceia especial em família",
+      "👣 Gesto de lavar os pés",
+      "🙏 Adoração ao Santíssimo"
+    ],
+    "suggestions": [
+      "Participar da Missa da Ceia do Senhor",
+      "Visitar o Santíssimo Sacramento",
+      "Lavar os pés de alguém da família"
+    ],
+    "image": "https://images.pexels.com/photos/3102581/pexels-photo-3102581.jpeg?w=400&h=400&fit=crop",
+    "period": "triduo",
+    "week": null
+  },
+  {
+    "id": "triduo-sexta",
+    "title": "Sexta-feira Santa",
+    "theme": "Paixão e Morte",
+    "message": "Amor que se doa até o fim.",
+    "verse": "Jo 19:30",
+    "verseText": "\"Está consumado.\"",
+    "reflection": "Jesus morre na cruz por amor a nós. É dia de silêncio, jejum e meditação sobre o sacrifício de Cristo.",
+    "description": "A Sexta-feira Santa é o dia mais solene do ano cristão. Meditamos sobre a Paixão e Morte de Jesus.",
+    "events": [
+      {
+        "icon": "fa-pray",
+        "name": "Paixão e Morte"
+      },
+      {
+        "icon": "fa-cross",
+        "name": "Adoração da Cruz"
+      },
+      {
+        "icon": "fa-volume-mute",
+        "name": "Silêncio"
+      }
+    ],
+    "activities": [
+      "🕯️ Via Sacra em família",
+      "🤫 Momento de silêncio",
+      "✝️ Adoração da Cruz"
+    ],
+    "suggestions": [
+      "Participar da Celebração da Paixão",
+      "Fazer jejum e abstinência",
+      "Rezar a Via Sacra"
+    ],
+    "image": "https://images.pexels.com/photos/6482165/pexels-photo-6482165.jpeg?w=400&h=400&fit=crop",
+    "period": "triduo",
+    "week": null
+  },
+  {
+    "id": "triduo-sabado",
+    "title": "Sábado Santo",
+    "theme": "Vigília Pascal",
+    "message": "Espera e esperança na ressurreição.",
+    "verse": "Sl 118:24",
+    "verseText": "\"Este é o dia que o Senhor fez para nós: alegremo-nos e exultemos.\"",
+    "reflection": "Dia de espera silenciosa junto ao sepulcro de Jesus. À noite, celebramos a Vigília Pascal.",
+    "description": "O Sábado Santo é dia de silêncio e espera. À noite, celebramos a Vigília Pascal com o fogo novo e o círio pascal.",
+    "events": [
+      {
+        "icon": "fa-fire",
+        "name": "Vigília Pascal"
+      },
+      {
+        "icon": "fa-hourglass-half",
+        "name": "Espera"
+      },
+      {
+        "icon": "fa-lightbulb",
+        "name": "Luz Nova"
+      }
+    ],
+    "activities": [
+      "🕯️ Acender uma vela",
+      "🎨 Preparar decoração de Páscoa",
+      "🙏 Vigília em família"
+    ],
+    "suggestions": [
+      "Participar da Vigília Pascal",
+      "Renovar as promessas batismais",
+      "Preparar o coração para a Páscoa"
+    ],
+    "image": "https://images.pexels.com/photos/2761991/pexels-photo-2761991.jpeg?w=400&h=400&fit=crop",
+    "period": "triduo",
+    "week": null
+  },
+  {
+    "id": "pascoa",
+    "title": "Domingo de Páscoa",
+    "theme": "Ressurreição do Senhor",
+    "message": "Jesus vive! Aleluia!",
+    "verse": "Lc 24:6",
+    "verseText": "\"Ele não está aqui; ressuscitou!\"",
+    "reflection": "Jesus ressuscitou! É o dia mais alegre do ano cristão. A morte foi vencida e temos vida eterna.",
+    "description": "Celebramos a Ressurreição de Jesus. Ele venceu a morte e nos dá a vida eterna. Aleluia!",
+    "activities": [
+      "🎉 Celebração alegre em família",
+      "🥚 Caça aos ovos (símbolo de vida nova)",
+      "🌅 Amanhecer cedo para ver o sol nascer",
+      "🎨 Pintar ovos coloridos"
+    ],
+    "suggestions": [
+      "Participe da missa da Páscoa",
+      "Compartilhe alegria com todos",
+      "Diga Aleluia com entusiasmo",
+      "Leia Jo 20:1-9"
+    ],
+    "image": "https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": null
+  },
+  {
+    "id": "2-pascoa",
+    "title": "2º Domingo da Páscoa",
+    "theme": "Divina Misericórdia",
+    "message": "Jesus aparece a Tomé e nos mostra suas chagas.",
+    "verse": "Jo 20:29",
+    "verseText": "\"Porque me viste, crestes. Felizes os que creram sem terem visto!\"",
+    "reflection": "Jesus aparece a Tomé e mostra suas chagas. A fé é dom de Deus que nos faz ver além.",
+    "description": "Tomé duvida, mas ao ver Jesus, crê. Jesus nos ensina que a fé é bem-aventurança.",
+    "activities": [
+      "🖐️ Faça \"chagas\" com massinha",
+      "🙏 Exercício de confiança em Deus",
+      "💬 Converse sobre perdão e misericórdia"
+    ],
+    "suggestions": [
+      "Reze o terço da Divina Misericórdia",
+      "Perdoe alguém",
+      "Leia Jo 20:19-31"
+    ],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": 2
+  },
+  {
+    "id": "3-pascoa",
+    "title": "3º Domingo da Páscoa",
+    "theme": "Pesca Milagrosa",
+    "message": "Jesus prepara peixe no fogo e reabilita Pedro.",
+    "verse": "Jo 21:17",
+    "verseText": "\"Senhor, tu sabes tudo; tu sabes que te amo.\"",
+    "reflection": "Jesus aparece aos discípulos junto ao mar e realiza outra pesca milagrosa. Ele restaura Pedro.",
+    "description": "Jesus se revela na Eucaristia (pão e peixe) e restaura Pedro, confiando-lhe suas ovelhas.",
+    "activities": [
+      "🐟 Desenhe peixes coloridos",
+      "☕ Faça um café da manhã especial em família",
+      "📖 Leia Jo 21 juntos"
+    ],
+    "suggestions": [
+      "Coma peixe hoje",
+      "Reze pelo Papa",
+      "Leia Jo 21:1-19"
+    ],
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": 3
+  },
+  {
+    "id": "4-pascoa",
+    "title": "4º Domingo da Páscoa",
+    "theme": "Bom Pastor",
+    "message": "Jesus é o pastor que cuida e protege.",
+    "verse": "Jo 10:14",
+    "verseText": "\"Eu sou o bom pastor. Conheço as minhas ovelhas e as minhas ovelhas me conhecem.\"",
+    "reflection": "Jesus é o Bom Pastor que dá a vida pelas ovelhas. Ele nos conhece pelo nome e nos guia.",
+    "description": "Celebramos o Domingo do Bom Pastor e o Dia das Vocações. Jesus nos chama a segui-lo.",
+    "activities": [
+      "🐑 Faça ovelhinha de algodão",
+      "🤗 Cuide de alguém ou de um animal",
+      "🎶 Cante salmos de proteção"
+    ],
+    "suggestions": [
+      "Reze pelas vocações",
+      "Visite um padre ou religioso",
+      "Leia Jo 10:1-10"
+    ],
+    "image": "https://images.unsplash.com/photo-1506443432675-24374d089317?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": 4
+  },
+  {
+    "id": "5-pascoa",
+    "title": "5º Domingo da Páscoa",
+    "theme": "A Videira Verdadeira",
+    "message": "Jesus é a videira, nós os ramos.",
+    "verse": "Jo 15:5",
+    "verseText": "\"Eu sou a videira, vós os ramos. Quem permanece em mim e eu nele, esse dá muito fruto.\"",
+    "reflection": "Jesus é a videira e nós somos os ramos. Precisamos permanecer unidos a ele para dar frutos.",
+    "description": "Jesus nos ensina que sem ele nada podemos fazer. A união com Cristo é fonte de vida.",
+    "activities": [
+      "🌿 Plante algo em casa",
+      "🌳 Ficar perto de Jesus (oração diária)",
+      "📝 Desenhe a árvore da família"
+    ],
+    "suggestions": [
+      "Cuide de uma planta",
+      "Faça oração todos os dias",
+      "Leia Jo 15:1-8"
+    ],
+    "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": 5
+  },
+  {
+    "id": "6-pascoa",
+    "title": "6º Domingo da Páscoa",
+    "theme": "Amor aos Discípulos",
+    "message": "Jesus reza por nós e nos ama até o fim.",
+    "verse": "Jo 15:12",
+    "verseText": "\"Este é o meu mandamento: que vos ameis uns aos outros, como eu vos amei.\"",
+    "reflection": "Jesus nos ama como o Pai o ama. Ele nos dá seu mandamento: amar uns aos outros.",
+    "description": "Jesus nos ensina o mandamento do amor. Amar é a essência da vida cristã.",
+    "activities": [
+      "💝 Ore pela família",
+      "💌 Faça cartões de amor",
+      "🤝 Ajude um vizinho ou amigo"
+    ],
+    "suggestions": [
+      "Faça um gesto de amor hoje",
+      "Reze pelos que você ama",
+      "Leia Jo 15:9-17"
+    ],
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": 6
+  },
+  {
+    "id": "ascensao",
+    "title": "Ascensão do Senhor",
+    "theme": "Jesus sobe aos céus",
+    "message": "Jesus volta ao Pai e nos promete o Espírito Santo.",
+    "verse": "At 1:11",
+    "verseText": "\"Esse Jesus que dentre vós foi assunto ao céu, virá do mesmo modo como o vistes subir.\"",
+    "reflection": "Jesus sobe aos céus após 40 dias da ressurreição. Ele nos promete o Espírito Santo e sua volta.",
+    "description": "Celebramos a Ascensão de Jesus ao céu. Ele prepara lugar para nós e nos envia o Espírito.",
+    "activities": [
+      "☁️ Olhe para o céu juntos",
+      "🎈 Solte um balão (se possível)",
+      "🙏 Faça uma promessa de oração"
+    ],
+    "suggestions": [
+      "Contemple o céu",
+      "Reze pela volta de Jesus",
+      "Leia At 1:1-11"
+    ],
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
+    "period": "pascoa",
+    "week": null
+  },
+  {
+    "id": "estacao-1",
+    "title": "Jesus é condenado à morte",
+    "theme": "Paciência na injustiça",
+    "message": "Jesus foi injustiçado, mas não reclamou. Ele nos ensina a ter paciência.",
+    "verse": "Is 53:7",
+    "verseText": "\"Maltratado, ele se deixa humilhar e não abre a boca.\"",
+    "reflection": "Jesus é condenado injustamente, mas aceita com paciência. Ele nos ensina a confiar em Deus nas dificuldades.",
+    "description": "Pilatos condena Jesus à morte, embora saiba que ele é inocente. Jesus aceita com paciência.",
+    "activities": [
+      "🙏 Faça o sinal da cruz devagar"
+    ],
+    "suggestions": [
+      "Quando for injustiçado, ore",
+      "Confie em Deus",
+      "Leia Is 53:1-12"
+    ],
+    "image": "https://images.unsplash.com/photo-1741436449827-bc1e2cb3b2e1?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 1
+  },
+  {
+    "id": "estacao-2",
+    "title": "Jesus carrega a cruz",
+    "theme": "Força nas dificuldades",
+    "message": "A cruz era pesada, mas Jesus aceitou. Nossas dificuldades também têm valor.",
+    "verse": "Mt 16:24",
+    "verseText": "\"Se alguém quer vir após mim, renegue-se a si mesmo, tome a sua cruz e siga-me.\"",
+    "reflection": "Jesus carrega a cruz pesada. Nós também temos nossas cruzes, mas com Jesus podemos carregá-las.",
+    "description": "Jesus carrega a cruz até o Calvário. Cada um de nós tem sua cruz para carregar.",
+    "activities": [
+      "💪 Flexione os braços (simulando peso)"
+    ],
+    "suggestions": [
+      "Ofereça suas dificuldades a Jesus",
+      "Ajude alguém com problemas",
+      "Leia Mt 16:24-28"
+    ],
+    "image": "https://images.unsplash.com/photo-1772909496321-5cef538d75f9?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 2
+  },
+  {
+    "id": "estacao-3",
+    "title": "Jesus cai pela primeira vez",
+    "theme": "Levantar depois do erro",
+    "message": "Jesus caiu, mas levantou. A gente também pode levantar quando erra.",
+    "verse": "Sl 37:24",
+    "verseText": "\"Se cair, não ficará prostrado, porque o Senhor o sustém pela mão.\"",
+    "reflection": "Jesus cai sob o peso da cruz, mas se levanta. Quando erramos, podemos nos levantar com a ajuda de Deus.",
+    "description": "Exausto, Jesus cai pela primeira vez. Mas ele se levanta e continua seu caminho.",
+    "activities": [
+      "🧎 Ajoelhe-se e levante-se"
+    ],
+    "suggestions": [
+      "Quando cair, levante-se",
+      "Peça ajuda a Deus",
+      "Leia Sl 37:23-24"
+    ],
+    "image": "https://images.unsplash.com/photo-1761574372449-5bfb03e1c117?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 3
+  },
+  {
+    "id": "estacao-4",
+    "title": "Jesus encontra sua Mãe",
+    "theme": "Amor familiar",
+    "message": "Maria sofria vendo Jesus sofrer. Mães e pais sempre sofrem com nossas dores.",
+    "verse": "Lc 2:35",
+    "verseText": "\"E uma espada traspassará a tua alma.\"",
+    "reflection": "Maria encontra Jesus no caminho da cruz. Ela sofre com ele. Os pais sofrem com os filhos.",
+    "description": "Maria vê Jesus carregando a cruz. Seu coração de mãe sofre profundamente.",
+    "activities": [
+      "🤗 Dê um abraço na família"
+    ],
+    "suggestions": [
+      "Agradeça seus pais",
+      "Ore por sua família",
+      "Leia Lc 2:34-35"
+    ],
+    "image": "https://images.unsplash.com/photo-1648457953826-5b028e348cb2?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 4
+  },
+  {
+    "id": "estacao-5",
+    "title": "Simão ajuda Jesus",
+    "theme": "Ajuda ao próximo",
+    "message": "Simão não conhecia Jesus, mas ajudou. Podemos ajudar quem precisa.",
+    "verse": "Mc 15:21",
+    "verseText": "\"Obrigaram um certo Simão de Cirene a carregar a cruz.\"",
+    "reflection": "Simão é obrigado a ajudar Jesus, mas esse gesto o transforma. Ajudar o próximo nos transforma.",
+    "description": "Simão de Cirene ajuda Jesus a carregar a cruz. Às vezes, somos chamados a ajudar sem planejar.",
+    "activities": [
+      "🤝 Aperte a mão de alguém"
+    ],
+    "suggestions": [
+      "Ajude alguém hoje",
+      "Seja solidário",
+      "Leia Mc 15:21"
+    ],
+    "image": "https://images.unsplash.com/photo-1761574372695-59bbd66161ee?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 5
+  },
+  {
+    "id": "estacao-6",
+    "title": "Verônica enxuga o rosto de Jesus",
+    "theme": "Caridade em gestos pequenos",
+    "message": "Um gesto pequeno de carinho faz muita diferença!",
+    "verse": "Mt 25:40",
+    "verseText": "\"Todas as vezes que fizestes a um destes meus irmãos mais pequeninos, a mim o fizestes.\"",
+    "reflection": "Verônica tem coragem de se aproximar e enxugar o rosto de Jesus. Pequenos gestos de amor têm grande valor.",
+    "description": "Verônica enxuga o rosto de Jesus com seu véu. Um gesto simples de compaixão.",
+    "activities": [
+      "🧻 Enxugue o rosto (gesto simbólico)"
+    ],
+    "suggestions": [
+      "Faça um gesto de carinho",
+      "Seja atencioso",
+      "Leia Mt 25:31-40"
+    ],
+    "image": "https://images.unsplash.com/photo-1762079445549-e953271586ba?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 6
+  },
+  {
+    "id": "estacao-7",
+    "title": "Jesus cai pela segunda vez",
+    "theme": "Perseverança",
+    "message": "Mesmo cansado, Jesus continuou. Não desistimos quando é difícil.",
+    "verse": "Hb 12:1",
+    "verseText": "\"Corramos com perseverança a carreira que nos é proposta.\"",
+    "reflection": "Jesus cai novamente, mas se levanta. A perseverança nos ajuda a alcançar nossos objetivos.",
+    "description": "Jesus cai pela segunda vez. A dor é grande, mas ele continua.",
+    "activities": [
+      "🚶‍♂️ Dê três passos firmes"
+    ],
+    "suggestions": [
+      "Não desista",
+      "Persevere",
+      "Leia Hb 12:1-3"
+    ],
+    "image": "https://images.unsplash.com/photo-1463936575829-251456842a4d?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 7
+  },
+  {
+    "id": "estacao-8",
+    "title": "Jesus encontra as mulheres",
+    "theme": "Consolo e compaixão",
+    "message": "Jesus confortou quem chorava por ele. Pensamos nos outros antes de nós.",
+    "verse": "Lc 23:28",
+    "verseText": "\"Filhas de Jerusalém, não choreis por mim; chorai antes por vós mesmas e por vossos filhos.\"",
+    "reflection": "Mesmo sofrendo, Jesus consola as mulheres. Ele nos ensina a pensar no próximo.",
+    "description": "Jesus encontra mulheres que choram por ele. Ele as consola, mesmo em sua dor.",
+    "activities": [
+      "😢 Enxugue uma lágrima (gesto)"
+    ],
+    "suggestions": [
+      "Console quem está triste",
+      "Seja compassivo",
+      "Leia Lc 23:27-31"
+    ],
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 8
+  },
+  {
+    "id": "estacao-9",
+    "title": "Jesus cai pela terceira vez",
+    "theme": "Pedir ajuda",
+    "message": "Jesus estava muito fraco, mas Deus deu forças. Pedimos ajuda quando precisamos.",
+    "verse": "2Cor 12:9",
+    "verseText": "\"Minha graça te basta, pois é na fraqueza que a força se manifesta plenamente.\"",
+    "reflection": "Jesus cai pela terceira vez, exausto. Quando estamos fracos, podemos pedir ajuda a Deus.",
+    "description": "Jesus cai novamente. Ele está exausto, mas confia no Pai.",
+    "activities": [
+      "🙌 Levante as mãos (pedir ajuda)"
+    ],
+    "suggestions": [
+      "Peça ajuda a Deus",
+      "Confie na graça divina",
+      "Leia 2Cor 12:7-10"
+    ],
+    "image": "https://images.unsplash.com/photo-1507692049790-de58293a469d?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 9
+  },
+  {
+    "id": "estacao-10",
+    "title": "Jesus é despojado",
+    "theme": "Dignidade e humildade",
+    "message": "Tiraram tudo de Jesus, menos sua dignidade. Valorizamos o que somos, não o que temos.",
+    "verse": "Fl 2:7",
+    "verseText": "\"Ele se esvaziou a si mesmo, assumindo a condição de servo.\"",
+    "reflection": "Tiram as roupas de Jesus, humilhando-o. Mas sua dignidade permanece. O que importa é quem somos.",
+    "description": "Jesus é despojado de suas vestes. Ele é humilhado, mas mantém sua dignidade.",
+    "activities": [
+      "👕 Toque o coração (humildade)"
+    ],
+    "suggestions": [
+      "Valorize as pessoas",
+      "Seja humilde",
+      "Leia Fl 2:5-11"
+    ],
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 10
+  },
+  {
+    "id": "estacao-11",
+    "title": "Jesus é pregado na cruz",
+    "theme": "Perdão radical",
+    "message": "Jesus perdoou até quem o machucou. Perdoamos quem nos magoa.",
+    "verse": "Lc 23:34",
+    "verseText": "\"Pai, perdoa-lhes, porque não sabem o que fazem.\"",
+    "reflection": "Jesus é pregado na cruz e perdoa seus algozes. O perdão liberta nosso coração.",
+    "description": "Jesus é crucificado. Mesmo na dor, ele perdoa.",
+    "activities": [
+      "✝️ Beije a cruz (ou imagem)"
+    ],
+    "suggestions": [
+      "Perdoe quem te magoou",
+      "Ore pelos inimigos",
+      "Leia Lc 23:33-34"
+    ],
+    "image": "https://images.unsplash.com/photo-1711989554558-3a9764800670?q=80&w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 11
+  },
+  {
+    "id": "estacao-12",
+    "title": "Jesus morre na cruz",
+    "theme": "Amor que doa tudo",
+    "message": "Jesus deu a vida por amor. O amor maior é doar-se pelos outros.",
+    "verse": "Jo 15:13",
+    "verseText": "\"Ninguém tem maior amor do que aquele que dá a vida pelos seus amigos.\"",
+    "reflection": "Jesus morre na cruz por amor a nós. Não há amor maior do que doar a vida.",
+    "description": "Jesus entrega seu espírito. Ele morre por amor a cada um de nós.",
+    "activities": [
+      "🕯️ Acenda uma vela / silêncio"
+    ],
+    "suggestions": [
+      "Agradeça a Jesus",
+      "Ame como Jesus amou",
+      "Leia Jo 19:28-30"
+    ],
+    "image": "https://images.unsplash.com/photo-1499209974431-2761eb43a730?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 12
+  },
+  {
+    "id": "estacao-13",
+    "title": "Jesus é descido da cruz",
+    "theme": "Cuidado familiar",
+    "message": "Maria segurou Jesus com amor. Cuidamos com carinho de quem amamos.",
+    "verse": "Jo 19:38",
+    "verseText": "\"José de Arimatéia retirou o corpo de Jesus.\"",
+    "reflection": "José de Arimatéia e Nicodemos retiram Jesus da cruz. Maria o recebe com amor. Cuidar é ato de amor.",
+    "description": "Jesus é descido da cruz e entregue a sua Mãe. É momento de dor e amor.",
+    "activities": [
+      "🤲 Mãos abertas (receber)"
+    ],
+    "suggestions": [
+      "Cuide de quem você ama",
+      "Valorize sua família",
+      "Leia Jo 19:38-40"
+    ],
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 13
+  },
+  {
+    "id": "estacao-14",
+    "title": "Jesus é sepultado",
+    "theme": "Esperança na ressurreição",
+    "message": "Parece que tudo acabou, mas... a história continua! A ressurreição vem!",
+    "verse": "Mt 28:6",
+    "verseText": "\"Ele não está aqui; ressuscitou, como tinha dito.\"",
+    "reflection": "Jesus é colocado no sepulcro. Parece o fim, mas a ressurreição está próxima. A esperança nunca morre!",
+    "description": "Jesus é sepultado. É dia de silêncio e espera. Mas a Páscoa está chegando!",
+    "activities": [
+      "🌅 Olhe para o horizonte (esperança)"
+    ],
+    "suggestions": [
+      "Tenha esperança",
+      "Confie em Deus",
+      "Aguarde a Páscoa",
+      "Leia Mt 27:57-61"
+    ],
+    "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600&h=400&fit=crop",
+    "period": "via-sacra",
+    "week": 14
+  },
+  {
+    "id": "cantinho-oracao",
+    "title": "Cantinho da Oração",
+    "icon": "🏠",
+    "description": "Monte um espaço especial com cruz, vela e Bíblia infantil.",
+    "linkText": "Ver ideias",
+    "linkUrl": "/dicas/cantinho-oracao",
+    "image": "https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?w=600&h=400&fit=crop",
+    "period": "dicas"
+  },
+  {
+    "id": "calendario-visual",
+    "title": "Calendário Visual",
+    "icon": "📅",
+    "description": "Crie um calendário para colorir cada dia cumprido.",
+    "linkText": "Baixar modelo",
+    "linkUrl": "/dicas/calendario-visual",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop",
+    "period": "dicas"
+  },
+  {
+    "id": "musicas-cantos",
+    "title": "Músicas e Cantos",
+    "icon": "🎵",
+    "description": "Sugestões: 'Convertei-vos', 'Hosana', 'Aleluia'.",
+    "linkText": "Ouvir playlist",
+    "linkUrl": "/dicas/musicas-cantos",
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop",
+    "period": "dicas"
+  },
+  {
+    "id": "atividades-criativas",
+    "title": "Atividades Criativas",
+    "icon": "🎨",
+    "description": "Ideias por idade: massinha, recortes, teatro.",
+    "linkText": "Ver atividades",
+    "linkUrl": "/dicas/atividades-criativas",
+    "image": "https://images.unsplash.com/photo-1513366208316-d9eee6e2317e?w=600&h=400&fit=crop",
+    "period": "dicas"
+  },
+  {
+    "id": "leituras-biblicas",
+    "title": "Leituras Bíblicas",
+    "icon": "📖",
+    "description": "Bíblia Infantil, 'Minha Primeira Bíblia', apps.",
+    "linkText": "Explorar",
+    "linkUrl": "/dicas/leituras-biblicas",
+    "image": "https://images.unsplash.com/photo-1561089489-f13d9d858f74?w=600&h=400&fit=crop",
+    "period": "dicas"
+  },
+  {
+    "id": "acao-social",
+    "title": "Ação Social",
+    "icon": "🤝",
+    "description": "Doações, campanha do agasalho, visitas.",
+    "linkText": "Ideias de ação",
+    "linkUrl": "/dicas/acao-social",
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+    "period": "dicas"
+  }
+]
