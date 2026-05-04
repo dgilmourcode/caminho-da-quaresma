@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cantinho-oracao",
+    "title": "Cantinho da Oração",
+    "icon": "🏠",
+    "description": "Monte um espaço especial com cruz, vela e Bíblia infantil.",
+    "linkText": "Ver ideias",
+    "image": "https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?q=80&w=600&h=400&fit=crop",
+    "blogContent": {
+      "subtitle": "Criando um espaço sagrado em família",
+      "sections": [
+        {
+          "title": "Materiais necessários",
+          "content": "Uma pequena mesa ou superfície, toalha branca, cruz ou crucifixo, vela, Bíblia infantil, imagem de Nossa Senhora, terço, flores naturais ou artificiais."
+        },
+        {
+          "title": "Como montar",
+          "content": "Escolha um lugar tranquilo da casa. Cubra com uma toalha branca. Coloque a cruz no centro. Adicione a vela (pode ser de LED para segurança). Posicione a Bíblia aberta e a imagem de Maria ao lado. Complete com flores e o terço."
+        },
+        {
+          "title": "Momento de oração",
+          "content": "Acenda a vela, faça o sinal da cruz e reze um Pai Nosso, uma Ave Maria e um Glória ao Pai. Leia um trecho da Bíblia infantil e converse com as crianças sobre o que aprenderam."
+        }
+      ],
+      "tips": [
+        "Troque a toalha conforme o tempo litúrgico (roxo na Quaresma, branco na Páscoa)",
+        "Inclua as crianças na manutenção do cantinho",
+        "Use imagens ou símbolos da época (ramo, cinzas, cruz)"
+      ]
+    }
+  },
+  {
+    "id": "calendario-visual",
+    "title": "Calendário Visual",
+    "icon": "📅",
+    "description": "Crie um calendário para colorir cada dia cumprido.",
+    "linkText": "Baixar modelo",
+    "image": "https://images.unsplash.com/photo-1703300450387-047da16a89c4?q=80&w=600&h=400&fit=crop",
+    "blogContent": {
+      "subtitle": "Acompanhe a jornada quaresmal com um calendário interativo",
+      "sections": [
+        {
+          "title": "Materiais necessários",
+          "content": "Cartolina branca, canetas coloridas, lápis de cor, adesivos, régua, tesoura, cola, imagens religiosas recortadas."
+        },
+        {
+          "title": "Como criar",
+          "content": "Desenhe 40 quadrados (ou 50 para Páscoa) na cartolina. Numere de 1 a 40. Em cada quadrado, escreva uma ação (ex: 'Rezar um Pai Nosso', 'Ajudar alguém'). Deixe espaço para colorir ao final do dia."
+        },
+        {
+          "title": "Como usar",
+          "content": "Ao final de cada dia, a criança pinta o quadrado correspondente. Para dias especiais (domingos), use adesivos dourados. Ao completar a semana, ganha uma recompensa simbólica."
+        }
+      ],
+      "tips": [
+        "Use cores diferentes para cada semana (roxo, rosa, vermelho, branco)",
+        "Inclua símbolos religiosos em datas especiais",
+        "Faça um calendário digital no celular para complementar"
+      ]
+    }
+  },
+  {
+    "id": "musicas-cantos",
+    "title": "Músicas e Cantos",
+    "icon": "🎵",
+    "description": "Sugestões: 'Convertei-vos', 'Hosana', 'Aleluia'.",
+    "linkText": "Ouvir playlist",
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop",
+    "blogContent": {
+      "subtitle": "Músicas para cada momento da Quaresma e Páscoa",
+      "sections": [
+        {
+          "title": "Músicas para a Quaresma",
+          "content": "'Convertei-vos' (Pe. Zezinho), 'Ó Minha Alma' (Pe. Fábio de Melo), 'Criai em mim um coração puro', 'Vem Espírito Santo', 'Perdão, Senhor'."
+        },
+        {
+          "title": "Músicas para Semana Santa",
+          "content": "'Hosana' (Davi Sacer), 'Ressuscitou Aleluia', 'A Morte de Cristo', 'Tua Cruz' (Padre Reginaldo), 'Escuta, Senhor'."
+        },
+        {
+          "title": "Músicas para a Páscoa",
+          "content": "'Aleluia, Cristo Vive!', 'A Alegria Está no Coração', 'Jesus Vive' (Pe. Zezinho), 'Ressuscitou Aleluia (Izzy Gordon)', 'Alfa e Ômega'."
+        }
+      ],
+      "tips": [
+        "Crie uma playlist no Spotify para seguir com as crianças",
+        "Cante em família após o jantar",
+        "Use instrumentos simples como pandeiro e violão"
+      ]
+    }
+  },
+  {
+    "id": "atividades-criativas",
+    "title": "Atividades Criativas",
+    "icon": "🎨",
+    "description": "Ideias por idade: massinha, recortes, teatro.",
+    "linkText": "Ver atividades",
+    "image": "https://images.unsplash.com/photo-1586442455113-45a74ebb0891?q=80&w=600&h=400&fit=crop",
+    "blogContent": {
+      "subtitle": "Atividades manuais para refletir sobre a Quaresma",
+      "sections": [
+        {
+          "title": "Para crianças de 3-6 anos",
+          "content": "Massinha de modelar para criar ovelhas (Jesus como Bom Pastor). Desenho da cruz para colorir. Recorte de nuvens e corações para colar. Fazer pulseiras de missão com miçangas roxas."
+        },
+        {
+          "title": "Para crianças de 7-10 anos",
+          "content": "Construir uma cruz de papelão e decorar. Criar um terço com macarrão e tinta. Fazer um presépio de Páscoa (túmulo vazio). Pintar ovos com símbolos religiosos."
+        },
+        {
+          "title": "Pré-adolescentes 11-14 anos",
+          "content": "Escrever um diário quaresmal. Criar um mural da fé com fotos da família. Desenhar as 14 estações da Via Sacra. Fazer um teatro de fantoches sobre a Ressurreição."
+        }
+      ],
+      "tips": [
+        "Use materiais recicláveis para ensinar sobre cuidado com a criação",
+        "Faça exposição dos trabalhos em casa",
+        "Incentive a troca de experiências entre irmãos"
+      ]
+    }
+  },
+  {
+    "id": "leituras-biblicas",
+    "title": "Leituras Bíblicas",
+    "icon": "📖",
+    "description": "Bíblia Infantil, 'Minha Primeira Bíblia', apps.",
+    "linkText": "Explorar",
+    "image": "https://images.unsplash.com/photo-1570336684085-f8453342cfd7?q=80&w=600&h=400&fit=crop",
+    "blogContent": {
+      "subtitle": "Recursos bíblicos para cada idade",
+      "sections": [
+        {
+          "title": "Bíblias infantis recomendadas",
+          "content": "'Minha Primeira Bíblia' (Thomas Nelson), 'Bíblia da Galerinha' (Geográfica), 'A Bíblia para Crianças' (SBB), 'Bíblia em Quadrinhos Kit Kids', 'A História da Bíblia' (Usborne)."
+        },
+        {
+          "title": "Apps e recursos digitais",
+          "content": "Bible App for Kids, Minha Bíblia de Histórias, La Bíblia App, Superlibro App, SBB Kids (Site)."
+        },
+        {
+          "title": "Calendário de leitura quaresmal",
+          "content": "Semana 1: Gênesis (criação) + Tentação de Jesus. Semana 2: Êxodo (Páscoa Judaica) + Transfiguração. Semana 3: Jonas + Samaritana. Semana 4: Davi + Cego de Nascença. Semana 5: Profecias + Lázaro. Semana Santa: Paixão segundo Mateus."
+        }
+      ],
+      "tips": [
+        "Leia sempre com entonação e gestos",
+        "Pergunte sobre o que aprenderam",
+        "Relacione com o dia a dia da criança"
+      ]
+    }
+  },
+  {
+    "id": "acao-social",
+    "title": "Ação Social",
+    "icon": "🤝",
+    "description": "Doações, campanha do agasalho, visitas.",
+    "linkText": "Ideias de ação",
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+    "blogContent": {
+      "subtitle": "Vivendo a caridade em família",
+      "sections": [
+        {
+          "title": "Ideias de doação",
+          "content": "Separe brinquedos que não usam mais e doe para instituições. Organize um brechó solidário em casa. Doe roupas de frio na campanha do agasalho. Prepare cestas básicas para famílias necessitadas."
+        },
+        {
+          "title": "Ações práticas",
+          "content": "Visite um asilo ou orfanato (com crianças, após combinar). Faça cartões de Páscoa para pessoas idosas. Ajude um vizinho idoso com compras. Participe da campanha 'Doe Sangue - Doe Vida'."
+        },
+        {
+          "title": "Envolvendo as crianças",
+          "content": "Crie um 'cofrinho da solidariedade' onde cada um deposita uma quantia simbólica por boa ação. Faça rifas solidárias entre a família. Organize uma 'corrida do amor' no quintal."
+        }
+      ],
+      "tips": [
+        "Incentive a criança a escolher a instituição",
+        "Explique o motivo da ação",
+        "Celebre a ação com uma oração de agradecimento"
+      ]
+    }
+  }
+]
