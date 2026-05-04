@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ação Social</title>
+  <title>Ação Social | Caminho da Fé</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 
   <script>
     const BASE = location.hostname.includes('github.io')
@@ -11,28 +14,64 @@
       : '/';
   </script>
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .blog-content p { color: #44403c; line-height: 1.6; margin-bottom: 1rem; }
+    .blog-content h2 { font-family: 'Playfair Display'; font-size: 1.5rem; margin: 2rem 0 1rem; }
+    .tip-card { background: #fffbeb; padding: 1rem; border-left: 4px solid #f59e0b; margin-top: 2rem; }
+  </style>
 </head>
 
-<body class="bg-gray-100 p-6">
+<body class="bg-stone-50">
 
-  <a href="#" onclick="location.href = BASE" class="text-blue-600">← Voltar</a>
+  <!-- NAV -->
+  <nav class="bg-white shadow p-4">
+    <a href="#" onclick="location.href = BASE" class="font-bold text-emerald-700">
+      🌿 Caminho da Fé
+    </a>
+  </nav>
 
-  <h1 class="text-3xl font-bold mt-4">Ação Social</h1>
-  <p class="mt-2">Doações, campanha do agasalho, visitas.</p>
+  <main class="max-w-4xl mx-auto p-6">
 
-  <div class="mt-6">
-    
-      <h2 class="text-xl font-semibold mt-4">Ideias de doação</h2>
-      <p>Separe brinquedos que não usam mais e doe para instituições. Organize um brechó solidário em casa. Doe roupas de frio na campanha do agasalho. Prepare cestas básicas para famílias necessitadas.</p>
-    
-      <h2 class="text-xl font-semibold mt-4">Ações práticas</h2>
-      <p>Visite um asilo ou orfanato (com crianças, após combinar). Faça cartões de Páscoa para pessoas idosas. Ajude um vizinho idoso com compras. Participe da campanha 'Doe Sangue - Doe Vida'.</p>
-    
-      <h2 class="text-xl font-semibold mt-4">Envolvendo as crianças</h2>
-      <p>Crie um 'cofrinho da solidariedade' onde cada um deposita uma quantia simbólica por boa ação. Faça rifas solidárias entre a família. Organize uma 'corrida do amor' no quintal.</p>
-    
-  </div>
+    <a href="#" onclick="location.href = BASE + '#dicas'" class="text-emerald-600">
+      ← Voltar
+    </a>
+
+    <!-- IMAGEM -->
+    <div class="mt-6 rounded-xl overflow-hidden shadow">
+      <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop" class="w-full h-64 object-cover">
+    </div>
+
+    <!-- TÍTULO -->
+    <h1 class="text-3xl font-bold mt-6">Ação Social</h1>
+    <p class="text-gray-600 mt-2">Doações, campanha do agasalho, visitas.</p>
+
+    <!-- CONTEÚDO -->
+    <div class="blog-content mt-6">
+
+      
+        <h2>Ideias de doação</h2>
+        <p>Separe brinquedos que não usam mais e doe para instituições. Organize um brechó solidário em casa. Doe roupas de frio na campanha do agasalho. Prepare cestas básicas para famílias necessitadas.</p>
+      
+        <h2>Ações práticas</h2>
+        <p>Visite um asilo ou orfanato (com crianças, após combinar). Faça cartões de Páscoa para pessoas idosas. Ajude um vizinho idoso com compras. Participe da campanha 'Doe Sangue - Doe Vida'.</p>
+      
+        <h2>Envolvendo as crianças</h2>
+        <p>Crie um 'cofrinho da solidariedade' onde cada um deposita uma quantia simbólica por boa ação. Faça rifas solidárias entre a família. Organize uma 'corrida do amor' no quintal.</p>
+      
+
+      
+        <div class="tip-card">
+          <h3>Dicas</h3>
+          <ul>
+            <li>✨ Incentive a criança a escolher a instituição</li><li>✨ Explique o motivo da ação</li><li>✨ Celebre a ação com uma oração de agradecimento</li>
+          </ul>
+        </div>
+      
+
+    </div>
+
+  </main>
 
 </body>
 </html>

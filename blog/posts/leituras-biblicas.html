@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leituras Bíblicas</title>
+  <title>Leituras Bíblicas | Caminho da Fé</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 
   <script>
     const BASE = location.hostname.includes('github.io')
@@ -11,28 +14,64 @@
       : '/';
   </script>
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .blog-content p { color: #44403c; line-height: 1.6; margin-bottom: 1rem; }
+    .blog-content h2 { font-family: 'Playfair Display'; font-size: 1.5rem; margin: 2rem 0 1rem; }
+    .tip-card { background: #fffbeb; padding: 1rem; border-left: 4px solid #f59e0b; margin-top: 2rem; }
+  </style>
 </head>
 
-<body class="bg-gray-100 p-6">
+<body class="bg-stone-50">
 
-  <a href="#" onclick="location.href = BASE" class="text-blue-600">← Voltar</a>
+  <!-- NAV -->
+  <nav class="bg-white shadow p-4">
+    <a href="#" onclick="location.href = BASE" class="font-bold text-emerald-700">
+      🌿 Caminho da Fé
+    </a>
+  </nav>
 
-  <h1 class="text-3xl font-bold mt-4">Leituras Bíblicas</h1>
-  <p class="mt-2">Bíblia Infantil, 'Minha Primeira Bíblia', apps.</p>
+  <main class="max-w-4xl mx-auto p-6">
 
-  <div class="mt-6">
-    
-      <h2 class="text-xl font-semibold mt-4">Bíblias infantis recomendadas</h2>
-      <p>'Minha Primeira Bíblia' (Thomas Nelson), 'Bíblia da Galerinha' (Geográfica), 'A Bíblia para Crianças' (SBB), 'Bíblia em Quadrinhos Kit Kids', 'A História da Bíblia' (Usborne).</p>
-    
-      <h2 class="text-xl font-semibold mt-4">Apps e recursos digitais</h2>
-      <p>Bible App for Kids, Minha Bíblia de Histórias, La Bíblia App, Superlibro App, SBB Kids (Site).</p>
-    
-      <h2 class="text-xl font-semibold mt-4">Calendário de leitura quaresmal</h2>
-      <p>Semana 1: Gênesis (criação) + Tentação de Jesus. Semana 2: Êxodo (Páscoa Judaica) + Transfiguração. Semana 3: Jonas + Samaritana. Semana 4: Davi + Cego de Nascença. Semana 5: Profecias + Lázaro. Semana Santa: Paixão segundo Mateus.</p>
-    
-  </div>
+    <a href="#" onclick="location.href = BASE + '#dicas'" class="text-emerald-600">
+      ← Voltar
+    </a>
+
+    <!-- IMAGEM -->
+    <div class="mt-6 rounded-xl overflow-hidden shadow">
+      <img src="https://images.unsplash.com/photo-1570336684085-f8453342cfd7?q=80&w=600&h=400&fit=crop" class="w-full h-64 object-cover">
+    </div>
+
+    <!-- TÍTULO -->
+    <h1 class="text-3xl font-bold mt-6">Leituras Bíblicas</h1>
+    <p class="text-gray-600 mt-2">Bíblia Infantil, 'Minha Primeira Bíblia', apps.</p>
+
+    <!-- CONTEÚDO -->
+    <div class="blog-content mt-6">
+
+      
+        <h2>Bíblias infantis recomendadas</h2>
+        <p>'Minha Primeira Bíblia' (Thomas Nelson), 'Bíblia da Galerinha' (Geográfica), 'A Bíblia para Crianças' (SBB), 'Bíblia em Quadrinhos Kit Kids', 'A História da Bíblia' (Usborne).</p>
+      
+        <h2>Apps e recursos digitais</h2>
+        <p>Bible App for Kids, Minha Bíblia de Histórias, La Bíblia App, Superlibro App, SBB Kids (Site).</p>
+      
+        <h2>Calendário de leitura quaresmal</h2>
+        <p>Semana 1: Gênesis (criação) + Tentação de Jesus. Semana 2: Êxodo (Páscoa Judaica) + Transfiguração. Semana 3: Jonas + Samaritana. Semana 4: Davi + Cego de Nascença. Semana 5: Profecias + Lázaro. Semana Santa: Paixão segundo Mateus.</p>
+      
+
+      
+        <div class="tip-card">
+          <h3>Dicas</h3>
+          <ul>
+            <li>✨ Leia sempre com entonação e gestos</li><li>✨ Pergunte sobre o que aprenderam</li><li>✨ Relacione com o dia a dia da criança</li>
+          </ul>
+        </div>
+      
+
+    </div>
+
+  </main>
 
 </body>
 </html>
