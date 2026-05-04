@@ -877,7 +877,7 @@
     "icon": "🏠",
     "description": "Monte um espaço especial com cruz, vela e Bíblia infantil.",
     "linkText": "Ver ideias",
-    "linkUrl": "/dicas/cantinho-oracao",
+    "linkUrl": "/caminho-da-quaresma/blog/posts/cantinho-oracao.html",
     "image": "https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?q=80&w=600&h=400&fit=crop",
     "period": "dicas"
   },
@@ -887,7 +887,7 @@
     "icon": "📅",
     "description": "Crie um calendário para colorir cada dia cumprido.",
     "linkText": "Baixar modelo",
-    "linkUrl": "/dicas/calendario-visual",
+    "linkUrl": "/caminho-da-quaresma/blog/posts/calendario-visual.html",
     "image": "https://images.unsplash.com/photo-1703300450387-047da16a89c4?q=80&w=600&h=400&fit=crop",
     "period": "dicas"
   },
@@ -897,7 +897,7 @@
     "icon": "🎵",
     "description": "Sugestões: 'Convertei-vos', 'Hosana', 'Aleluia'.",
     "linkText": "Ouvir playlist",
-    "linkUrl": "/dicas/musicas-cantos",
+    "linkUrl": "/caminho-da-quaresma/blog/posts/musicas-cantos.html",
     "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop",
     "period": "dicas"
   },
@@ -907,7 +907,7 @@
     "icon": "🎨",
     "description": "Ideias por idade: massinha, recortes, teatro.",
     "linkText": "Ver atividades",
-    "linkUrl": "/dicas/atividades-criativas",
+    "linkUrl": "/caminho-da-quaresma/blog/posts/atividades-criativas.html",
     "image": "https://images.unsplash.com/photo-1586442455113-45a74ebb0891?q=80&w=600&h=400&fit=crop",
     "period": "dicas"
   },
@@ -917,7 +917,7 @@
     "icon": "📖",
     "description": "Bíblia Infantil, 'Minha Primeira Bíblia', apps.",
     "linkText": "Explorar",
-    "linkUrl": "/dicas/leituras-biblicas",
+    "linkUrl": "/caminho-da-quaresma/blog/posts/leituras-biblicas.html",
     "image": "https://images.unsplash.com/photo-1570336684085-f8453342cfd7?q=80&w=600&h=400&fit=crop",
     "period": "dicas"
   },
@@ -927,7 +927,7 @@
     "icon": "🤝",
     "description": "Doações, campanha do agasalho, visitas.",
     "linkText": "Ideias de ação",
-    "linkUrl": "/dicas/acao-social",
+    "linkUrl": "/caminho-da-quaresma/blog/posts/acao-social.html",
     "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
     "period": "dicas"
   }
