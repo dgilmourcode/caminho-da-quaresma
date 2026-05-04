@@ -1,77 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Músicas e Cantos | Caminho da Fé</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
+<title>Músicas e Cantos</title>
 
-  <script>
-    const BASE = location.hostname.includes('github.io')
-      ? '/caminho-da-quaresma/'
-      : '/';
-  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 
-  <style>
-    body { font-family: 'Inter', system-ui, sans-serif; }
-    .blog-content p { color: #44403c; line-height: 1.6; margin-bottom: 1rem; }
-    .blog-content h2 { font-family: 'Playfair Display'; font-size: 1.5rem; margin: 2rem 0 1rem; }
-    .tip-card { background: #fffbeb; padding: 1rem; border-left: 4px solid #f59e0b; margin-top: 2rem; }
-  </style>
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fafaf9;
+  color: #1c1917;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(30px) scale(.98);
+  transition: all .7s cubic-bezier(0.22,1,0.36,1);
+}
+.fade.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.glass {
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.hero-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.18), rgba(0,0,0,0.02));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* SCROLL INVISÍVEL (CHROME, EDGE, SAFARI) */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* FIREFOX */
+html {
+  scrollbar-width: none;
+}
+</style>
 </head>
 
-<body class="bg-stone-50">
+<body>
 
-  <!-- NAV -->
-  <nav class="bg-white shadow p-4">
-    <a href="#" onclick="location.href = BASE" class="font-bold text-emerald-700">
-      🌿 Caminho da Fé
-    </a>
-  </nav>
+<button onclick="location.href = '#dicas'"
+class="fixed top-4 left-4 z-50 glass px-3 py-1.5 rounded-full text-xs text-stone-600 hover:text-black shadow-sm hover:scale-105 transition">
+← Voltar
+</button>
 
-  <main class="max-w-4xl mx-auto p-6">
+<!-- IMAGEM LIMPA -->
+<section class="w-full h-[40vh] md:h-[50vh] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop" class="w-full h-full object-cover">
+</section>
 
-    <a href="#" onclick="location.href = BASE + '#dicas'" class="text-emerald-600">
-      ← Voltar
-    </a>
+<!-- HEADER LIMPO (ESTILO APPLE) -->
+<section class="max-w-3xl mx-auto px-6 py-10">
 
-    <!-- IMAGEM -->
-    <div class="mt-6 rounded-xl overflow-hidden shadow">
-      <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop" class="w-full h-64 object-cover">
-    </div>
+  <h1 class="text-3xl md:text-5xl font-bold text-stone-900 fade">
+    Músicas e Cantos
+  </h1>
 
-    <!-- TÍTULO -->
-    <h1 class="text-3xl font-bold mt-6">Músicas e Cantos</h1>
-    <p class="text-gray-600 mt-2">Sugestões: 'Convertei-vos', 'Hosana', 'Aleluia'.</p>
+  <p class="text-stone-500 mt-4 text-lg fade">
+    Músicas para cada momento da Quaresma e Páscoa
+  </p>
 
-    <!-- CONTEÚDO -->
-    <div class="blog-content mt-6">
+</section>
 
-      
-        <h2>Músicas para a Quaresma</h2>
-        <p>'Convertei-vos' (Pe. Zezinho), 'Ó Minha Alma' (Pe. Fábio de Melo), 'Criai em mim um coração puro', 'Vem Espírito Santo', 'Perdão, Senhor'.</p>
-      
-        <h2>Músicas para Semana Santa</h2>
-        <p>'Hosana' (Davi Sacer), 'Ressuscitou Aleluia', 'A Morte de Cristo', 'Tua Cruz' (Padre Reginaldo), 'Escuta, Senhor'.</p>
-      
-        <h2>Músicas para a Páscoa</h2>
-        <p>'Aleluia, Cristo Vive!', 'A Alegria Está no Coração', 'Jesus Vive' (Pe. Zezinho), 'Ressuscitou Aleluia (Izzy Gordon)', 'Alfa e Ômega'.</p>
-      
+<main class="max-w-3xl mx-auto px-6 py-12 space-y-10">
 
-      
-        <div class="tip-card">
-          <h3>Dicas</h3>
-          <ul>
-            <li>✨ Crie uma playlist no Spotify para seguir com as crianças</li><li>✨ Cante em família após o jantar</li><li>✨ Use instrumentos simples como pandeiro e violão</li>
-          </ul>
-        </div>
-      
+  <p class="text-lg text-stone-600 fade">
+    Sugestões: 'Convertei-vos', 'Hosana', 'Aleluia'.
+  </p>
 
-    </div>
+  
+      <section class="fade">
+        <h2 class="text-xl font-semibold mb-3">
+          Músicas para a Quaresma
+        </h2>
+        <p class="text-stone-600 leading-relaxed">
+          'Convertei-vos' (Pe. Zezinho), 'Ó Minha Alma' (Pe. Fábio de Melo), 'Criai em mim um coração puro', 'Vem Espírito Santo', 'Perdão, Senhor'.
+        </p>
+      </section>
+      <section class="fade">
+        <h2 class="text-xl font-semibold mb-3">
+          Músicas para Semana Santa
+        </h2>
+        <p class="text-stone-600 leading-relaxed">
+          'Hosana' (Davi Sacer), 'Ressuscitou Aleluia', 'A Morte de Cristo', 'Tua Cruz' (Padre Reginaldo), 'Escuta, Senhor'.
+        </p>
+      </section>
+      <section class="fade">
+        <h2 class="text-xl font-semibold mb-3">
+          Músicas para a Páscoa
+        </h2>
+        <p class="text-stone-600 leading-relaxed">
+          'Aleluia, Cristo Vive!', 'A Alegria Está no Coração', 'Jesus Vive' (Pe. Zezinho), 'Ressuscitou Aleluia (Izzy Gordon)', 'Alfa e Ômega'.
+        </p>
+      </section>
 
-  </main>
+  
+    <section class="fade glass p-6 rounded-xl">
+      <h3 class="font-semibold mb-3 text-amber-600">
+        ✨ Dicas
+      </h3>
+      <ul class="space-y-2 text-stone-600">
+        <li>• Crie uma playlist no Spotify para seguir com as crianças</li><li>• Cante em família após o jantar</li><li>• Use instrumentos simples como pandeiro e violão</li>
+      </ul>
+    </section>
+
+</main>
+
+<footer class="text-center py-10 text-stone-400 text-sm">
+  Caminho da Fé ✝️
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.classList.add('show');
+  });
+});
+
+document.querySelectorAll('.fade').forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>

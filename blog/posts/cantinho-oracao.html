@@ -1,77 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cantinho da Oração | Caminho da Fé</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
+<title>Cantinho da Oração</title>
 
-  <script>
-    const BASE = location.hostname.includes('github.io')
-      ? '/caminho-da-quaresma/'
-      : '/';
-  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 
-  <style>
-    body { font-family: 'Inter', system-ui, sans-serif; }
-    .blog-content p { color: #44403c; line-height: 1.6; margin-bottom: 1rem; }
-    .blog-content h2 { font-family: 'Playfair Display'; font-size: 1.5rem; margin: 2rem 0 1rem; }
-    .tip-card { background: #fffbeb; padding: 1rem; border-left: 4px solid #f59e0b; margin-top: 2rem; }
-  </style>
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fafaf9;
+  color: #1c1917;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(30px) scale(.98);
+  transition: all .7s cubic-bezier(0.22,1,0.36,1);
+}
+.fade.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.glass {
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.hero-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.18), rgba(0,0,0,0.02));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* SCROLL INVISÍVEL (CHROME, EDGE, SAFARI) */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* FIREFOX */
+html {
+  scrollbar-width: none;
+}
+</style>
 </head>
 
-<body class="bg-stone-50">
+<body>
 
-  <!-- NAV -->
-  <nav class="bg-white shadow p-4">
-    <a href="#" onclick="location.href = BASE" class="font-bold text-emerald-700">
-      🌿 Caminho da Fé
-    </a>
-  </nav>
+<button onclick="location.href = '#dicas'"
+class="fixed top-4 left-4 z-50 glass px-3 py-1.5 rounded-full text-xs text-stone-600 hover:text-black shadow-sm hover:scale-105 transition">
+← Voltar
+</button>
 
-  <main class="max-w-4xl mx-auto p-6">
+<!-- IMAGEM LIMPA -->
+<section class="w-full h-[40vh] md:h-[50vh] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?q=80&w=600&h=400&fit=crop" class="w-full h-full object-cover">
+</section>
 
-    <a href="#" onclick="location.href = BASE + '#dicas'" class="text-emerald-600">
-      ← Voltar
-    </a>
+<!-- HEADER LIMPO (ESTILO APPLE) -->
+<section class="max-w-3xl mx-auto px-6 py-10">
 
-    <!-- IMAGEM -->
-    <div class="mt-6 rounded-xl overflow-hidden shadow">
-      <img src="https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?q=80&w=600&h=400&fit=crop" class="w-full h-64 object-cover">
-    </div>
+  <h1 class="text-3xl md:text-5xl font-bold text-stone-900 fade">
+    Cantinho da Oração
+  </h1>
 
-    <!-- TÍTULO -->
-    <h1 class="text-3xl font-bold mt-6">Cantinho da Oração</h1>
-    <p class="text-gray-600 mt-2">Monte um espaço especial com cruz, vela e Bíblia infantil.</p>
+  <p class="text-stone-500 mt-4 text-lg fade">
+    Criando um espaço sagrado em família
+  </p>
 
-    <!-- CONTEÚDO -->
-    <div class="blog-content mt-6">
+</section>
 
-      
-        <h2>Materiais necessários</h2>
-        <p>Uma pequena mesa ou superfície, toalha branca, cruz ou crucifixo, vela, Bíblia infantil, imagem de Nossa Senhora, terço, flores naturais ou artificiais.</p>
-      
-        <h2>Como montar</h2>
-        <p>Escolha um lugar tranquilo da casa. Cubra com uma toalha branca. Coloque a cruz no centro. Adicione a vela (pode ser de LED para segurança). Posicione a Bíblia aberta e a imagem de Maria ao lado. Complete com flores e o terço.</p>
-      
-        <h2>Momento de oração</h2>
-        <p>Acenda a vela, faça o sinal da cruz e reze um Pai Nosso, uma Ave Maria e um Glória ao Pai. Leia um trecho da Bíblia infantil e converse com as crianças sobre o que aprenderam.</p>
-      
+<main class="max-w-3xl mx-auto px-6 py-12 space-y-10">
 
-      
-        <div class="tip-card">
-          <h3>Dicas</h3>
-          <ul>
-            <li>✨ Troque a toalha conforme o tempo litúrgico (roxo na Quaresma, branco na Páscoa)</li><li>✨ Inclua as crianças na manutenção do cantinho</li><li>✨ Use imagens ou símbolos da época (ramo, cinzas, cruz)</li>
-          </ul>
-        </div>
-      
+  <p class="text-lg text-stone-600 fade">
+    Monte um espaço especial com cruz, vela e Bíblia infantil.
+  </p>
 
-    </div>
+  
+      <section class="fade">
+        <h2 class="text-xl font-semibold mb-3">
+          Materiais necessários
+        </h2>
+        <p class="text-stone-600 leading-relaxed">
+          Uma pequena mesa ou superfície, toalha branca, cruz ou crucifixo, vela, Bíblia infantil, imagem de Nossa Senhora, terço, flores naturais ou artificiais.
+        </p>
+      </section>
+      <section class="fade">
+        <h2 class="text-xl font-semibold mb-3">
+          Como montar
+        </h2>
+        <p class="text-stone-600 leading-relaxed">
+          Escolha um lugar tranquilo da casa. Cubra com uma toalha branca. Coloque a cruz no centro. Adicione a vela (pode ser de LED para segurança). Posicione a Bíblia aberta e a imagem de Maria ao lado. Complete com flores e o terço.
+        </p>
+      </section>
+      <section class="fade">
+        <h2 class="text-xl font-semibold mb-3">
+          Momento de oração
+        </h2>
+        <p class="text-stone-600 leading-relaxed">
+          Acenda a vela, faça o sinal da cruz e reze um Pai Nosso, uma Ave Maria e um Glória ao Pai. Leia um trecho da Bíblia infantil e converse com as crianças sobre o que aprenderam.
+        </p>
+      </section>
 
-  </main>
+  
+    <section class="fade glass p-6 rounded-xl">
+      <h3 class="font-semibold mb-3 text-amber-600">
+        ✨ Dicas
+      </h3>
+      <ul class="space-y-2 text-stone-600">
+        <li>• Troque a toalha conforme o tempo litúrgico (roxo na Quaresma, branco na Páscoa)</li><li>• Inclua as crianças na manutenção do cantinho</li><li>• Use imagens ou símbolos da época (ramo, cinzas, cruz)</li>
+      </ul>
+    </section>
+
+</main>
+
+<footer class="text-center py-10 text-stone-400 text-sm">
+  Caminho da Fé ✝️
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.classList.add('show');
+  });
+});
+
+document.querySelectorAll('.fade').forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>
