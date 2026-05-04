@@ -10,7 +10,7 @@ import "./styles.css"
 //  CONFIGURAÇÕES GLOBAIS
 // ============================================================================
 const CONFIG = {
-  dataUrl: '/data.json',
+  dataUrl: `${import.meta.env.BASE_URL}data.json`,
 
   selectors: {
     navbar: '#navbar',
@@ -148,11 +148,11 @@ const Utils = {
 // ============================================================================
 const Modal = {
   overlay: null,
-  container: null, 
+  container: null,
 
   init() {
     this.overlay = document.getElementById('imageModal');
-    this.container = this.overlay?.querySelector('.modal-container'); 
+    this.container = this.overlay?.querySelector('.modal-container');
     if (!this.overlay || !this.container) {
       console.error('❌ Modal não encontrado!');
       return;
@@ -245,7 +245,7 @@ const Modal = {
 
     this.container.innerHTML = closeBtnHtml + contentHtml;
 
-    
+
     this.overlay.classList.remove('hidden');
     this.overlay.classList.add('flex');
     document.body.style.overflow = 'hidden';
@@ -263,7 +263,7 @@ const Modal = {
   close() {
     if (!this.overlay) return;
     this.overlay.classList.add('hidden');
-    this.overlay.classList.remove('flex'); 
+    this.overlay.classList.remove('flex');
     document.body.style.overflow = '';
   }
 };
@@ -433,12 +433,12 @@ function renderQuaresmaCard(card) {
   return `
     <article class="quaresma-card group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-id="${card.id}" data-period="${card.period}">
       <!-- Foto no topo - estilo Dribbble -->
-      <div class="relative h-44 overflow-hidden bg-gradient-to-br from-purple-100 to-purple-50">
+      <div class="relative h-44 overflow-hidden rounded-t-2xl bg-gradient-to-br from-purple-100 to-purple-50">
         <img src="${imgSrc}" alt="${Utils.escapeHtml(card.title)}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
         <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         
         <!-- Botão expand -->
-        <button class="expand-btn absolute top-3 right-3 w-8 h-8 bg-white/95 backdrop-blur-sm rounded-full flex items-center justify-center text-stone-400 hover:text-purple-600 hover:scale-110 transition-all duration-300 shadow-md z-10 opacity-0 group-hover:opacity-100" 
+        <button class="expand-btn absolute top-2 right-2 w-7 h-7 bg-white/95 backdrop-blur-sm rounded-full flex items-center justify-center text-stone-400 hover:text-purple-600 hover:scale-110 transition-all duration-300 shadow-md z-10" 
           data-modal="${encodeURIComponent(JSON.stringify(modalData))}"
           aria-label="Ver detalhes">
           <i class="fas fa-expand text-xs"></i>
@@ -514,23 +514,24 @@ function renderSemanaSantaCard(card) {
   const modalDataJson = JSON.stringify(modalData).replace(/'/g, "&#39;");
 
   return `
-    <article class="semana-card group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 cursor-pointer flex" data-id="${card.id}">
+    <article class="semana-card group bg-white rounded-full overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 cursor-pointer flex" data-id="${card.id}">
       <!-- Foto lateral esquerda -->
-      <div class="w-28 h-28 sm:w-32 sm:h-32 flex-shrink-0 rounded-xl overflow-hidden ">
+      <div class="w-22 h-22 sm:w-28 sm:h-28 flex-shrink-0 rounded-xl overflow-hidden ">
         <img src="${imgSrc}" alt="${Utils.escapeHtml(card.title)}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
       </div>
       
       <!-- Conteúdo lado direito -->
       <div class="flex-1 p-3 sm:p-4 relative">
         <!-- Botão expand -->
-        <button class="expand-btn absolute top-2 right-2 w-7 h-7 bg-white/90 rounded-full flex items-center justify-center text-stone-400 hover:text-red-500 hover:scale-110 transition-all duration-200 shadow-sm z-10 opacity-0 group-hover:opacity-100" 
-          data-modal="${encodeURIComponent(JSON.stringify(modalData))}">
-          <i class="fas fa-expand text-[10px]"></i>
+        <button class="expand-btn absolute top-2 right-2 w-7 h-7 bg-white/95 backdrop-blur-sm rounded-full flex items-center justify-center text-stone-400 hover:text-purple-600 hover:scale-110 transition-all duration-300 shadow-md z-10"
+          data-modal="${encodeURIComponent(JSON.stringify(modalData))}"
+          aria-label="Ver detalhes">
+          <i class="fas fa-expand text-xs"></i>
         </button>
         
         <!-- Tema badge -->
         ${card.theme ? `
-          <span class="inline-block px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded-full text-[10px] font-semibold uppercase mb-1.5">
+          <span class="inline-block p-2 m-4 bg-emerald-100 text-emerald-700 rounded-2xl text-[10px] font-semibold uppercase mb-1.5">
             ${Utils.escapeHtml(card.theme)}
           </span>
         ` : ''}
@@ -599,7 +600,8 @@ function renderViaSacraCard(card, index) {
   return `
     <article class="estacao-card group bg-white rounded-xl shadow-sm border border-stone-100 overflow-hidden transition-all duration-300 hover:shadow-md cursor-pointer" data-estacao="${card.week || index + 1}" data-id="${card.id}">
       <div class="relative p-4">
-        <button class="absolute top-2 right-2 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center text-stone-400 hover:text-red-500 transition-all z-10"
+        <!-- Botão expand -->
+        <button class="expand-btn absolute top-2 right-2 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center text-stone-400 hover:text-red-500 transition-all z-10"
           data-modal="${encodeURIComponent(JSON.stringify(modalData))}">
           <i class="fas fa-expand text-xs"></i>
         </button>
@@ -677,7 +679,7 @@ function renderTriduoCard(card) {
       <div class="absolute inset-0 bg-gradient-to-br ${gradientClass} opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
       
       <!-- Botão expand -->
-      <button class="expand-btn absolute top-4 right-4 w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/30 hover:scale-110 transition-all duration-300 z-10 opacity-0 group-hover:opacity-100" 
+      <button class="expand-btn absolute top-4 right-4 w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/30 hover:scale-110 transition-all duration-300 z-10" 
         data-modal="${encodeURIComponent(JSON.stringify(modalData))}""
         aria-label="Ver detalhes">
         <i class="fas fa-expand text-sm"></i>
@@ -751,7 +753,7 @@ function renderPascoaCard(card) {
       <!-- Conteúdo -->
       <div class="flex-1 p-2.5 sm:p-3 relative">
         <!-- Botão expand -->
-        <button class="expand-btn absolute top-1.5 right-1.5 w-5 h-5 bg-white/90 rounded-full flex items-center justify-center text-stone-400 hover:text-amber-600 hover:scale-110 transition-all duration-200 shadow-sm opacity-0 group-hover:opacity-100" 
+        <button class="expand-btn absolute top-1.5 right-1.5 w-5 h-5 bg-white/90 rounded-full flex items-center justify-center text-stone-400 hover:text-amber-600 hover:scale-110 transition-all duration-200 shadow-sm" 
           data-modal="${encodeURIComponent(JSON.stringify(modalData))}">
           <i class="fas fa-expand text-[8px]"></i>
         </button>
@@ -1209,8 +1211,8 @@ function initInstallButtonVisibility() {
 //  EVENT LISTENERS
 // ============================================================================
 function setupEventListeners() {
-// Smooth scroll para âncoras
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  // Smooth scroll para âncoras
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       const targetId = this.getAttribute('href');
       if (targetId === '#') return;

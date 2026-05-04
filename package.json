@@ -3,13 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://dgilmourcode.github.io/caminho-da-quaresma",
+  "homepage": "https://dgilmourcode.github.io/caminho-da-quaresma/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && npx gh-pages -d dist",
     "lint": "eslint src --ext js,jsx",
     "format": "prettier --write \"**/*.{js,jsx,html,css,json}\""
   },

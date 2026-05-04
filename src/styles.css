@@ -174,35 +174,6 @@
   box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.25);
 }
 
-/* Botão Expand - Canto Superior Direito (comum a todos cards) */
-.expand-btn {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(4px);
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #78716c;
-  transition: all 0.2s ease;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  cursor: pointer;
-  opacity: 0;
-}
-
-.group:hover .expand-btn {
-  opacity: 1;
-}
-
-.expand-btn:hover {
-  color: #ef4444;
-  transform: scale(1.1);
-}
 
 /* Cards da Quaresma (foto no topo) */
 .quaresma-card {
@@ -440,34 +411,66 @@
    ============================================ */
 .modal-overlay {
   position: fixed;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(8px);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 1000;
   transition: all 0.3s ease;
 }
 
-.modal-overlay.modal-hidden,
 .modal-overlay.hidden {
   display: none !important;
 }
 
-.modal-content {
-  position: relative;
-  max-width: 42rem;
-  margin: 0 1rem;
-  background-color: white;
-  border-radius: 1.5rem;
-  overflow: hidden;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  max-height: 90vh;
-  overflow-y: auto;
-  animation: fadeInUp 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
+.modal-overlay:not(.hidden) {
+  display: flex !important;
 }
 
+.modal-container {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  max-height: 85vh;
+  margin: 1rem;
+  overflow-y: auto;
+  border-radius: 24px;
+}
+
+/* Para mobile */
+@media (max-width: 640px) {
+  .modal-container {
+    width: 95%;
+    max-height: 80vh;
+    margin: 0.5rem;
+  }
+}
+
+/* Scrollbar do modal */
+.modal-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.modal-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.modal-container::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Botão de fechar do modal */
 .modal-close-btn {
   position: absolute;
   top: 1rem;
@@ -475,7 +478,7 @@
   z-index: 10;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(4px);
   border-radius: 9999px;
   display: flex;
@@ -490,25 +493,6 @@
 .modal-close-btn:hover {
   color: #ef4444;
   transform: scale(1.1);
-}
-
-/* Scrollbar do modal */
-.modal-content::-webkit-scrollbar {
-  width: 6px;
-}
-
-.modal-content::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-
-.modal-content::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 10px;
-}
-
-.modal-content::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
 }
 
 /* ============================================
@@ -860,41 +844,6 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
-
-
-/* ============================================
-   23. MODAL CARD
-   ============================================ */
-.modal-overlay {
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(8px);
-}
-
-.modal-container {
-  max-height: 90vh;
-  overflow-y: auto;
-}
-
-/* Scrollbar do modal */
-.modal-container::-webkit-scrollbar {
-  width: 6px;
-}
-
-.modal-container::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-
-.modal-container::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 10px;
-}
-
-.modal-container::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
 
 
 /* ============================================
