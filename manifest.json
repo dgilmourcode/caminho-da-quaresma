@@ -4,32 +4,28 @@
   "description": "Roteiro infantil completo: Quaresma, Semana Santa, Páscoa e Pentecostes",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fffbeb",
-  "theme_color": "#065f46",
+  "background_color": "#faf9f6",
+  "theme_color": "#0f172a",
   "orientation": "portrait",
   "scope": "/",
   "lang": "pt-BR",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23065f46' width='192' height='192' rx='48'/><text x='96' y='120' font-size='100' text-anchor='middle'>🌿</text></svg>",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%230f172a' width='192' height='192' rx='48'/%3E%3Ctext x='96' y='130' font-size='100' text-anchor='middle' fill='white'%3E🌿%3C/text%3E%3C/svg%3E",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23065f46' width='512' height='512' rx='128'/><text x='256' y='320' font-size='280' text-anchor='middle'>🌿</text></svg>",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect fill='%230f172a' width='512' height='512' rx='128'/%3E%3Ctext x='256' y='340' font-size='280' text-anchor='middle' fill='white'%3E🌿%3C/text%3E%3C/svg%3E",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ],
-  "categories": ["education", "lifestyle", "kids"],
-  "screenshots": [
-    {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 390 844'><rect fill='%23fffbeb' width='390' height='844'/><text x='195' y='400' font-size='100' text-anchor='middle'>🌿</text><text x='195' y='500' font-size='24' text-anchor='middle' fill='%23065f46'>Caminho da Fé</text></svg>",
-      "sizes": "390x844",
-      "type": "image/svg+xml",
-      "form_factor": "narrow"
-    }
+  "categories": [
+    "education",
+    "lifestyle",
+    "kids"
   ]
 }
