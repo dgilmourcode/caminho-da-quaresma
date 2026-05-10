@@ -103,8 +103,14 @@ html {
 <body>
 
 <!-- BOTÃO VOLTAR -->
-<button onclick="location.href = '#dicas'"
-class="fixed top-4 left-4 z-50 glass px-3 py-1.5 rounded-full text-xs text-stone-600 hover:text-black shadow-sm hover:scale-105 transition">
+<button onclick="
+if (history.length > 1) {
+  history.back();
+} else {
+  location.href = '/caminho-da-quaresma/';
+}
+"
+class="fixed top-4 left-4 z-50 glass text-sm px-4 py-2 rounded-full text-stone-600 hover:text-black shadow-sm hover:scale-105 transition">
 ← Voltar
 </button>
 

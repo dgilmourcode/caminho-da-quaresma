@@ -361,7 +361,7 @@ ${s}
           <h3 class="font-semibold text-stone-900">${r.escapeHtml(e.title)}</h3>
         </div>
         <p class="text-stone-600 text-sm mb-4">${r.escapeHtml(e.description)}</p>
-        <a href="${t}" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-medium text-sm hover:underline inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+        <a href="${t}" rel="noopener noreferrer" class="text-emerald-600 font-medium text-sm hover:underline inline-flex items-center gap-1 group-hover:gap-2 transition-all">
           ${e.linkText} <i class="fas fa-arrow-right text-xs"></i>
         </a>
       </div>

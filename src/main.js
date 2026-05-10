@@ -825,7 +825,7 @@ function renderDicaCard(dica) {
           <h3 class="font-semibold text-stone-900">${Utils.escapeHtml(dica.title)}</h3>
         </div>
         <p class="text-stone-600 text-sm mb-4">${Utils.escapeHtml(dica.description)}</p>
-        <a href="${linkUrl}" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-medium text-sm hover:underline inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+        <a href="${linkUrl}" rel="noopener noreferrer" class="text-emerald-600 font-medium text-sm hover:underline inline-flex items-center gap-1 group-hover:gap-2 transition-all">
           ${dica.linkText} <i class="fas fa-arrow-right text-xs"></i>
         </a>
       </div>
