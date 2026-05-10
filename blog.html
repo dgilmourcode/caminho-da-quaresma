@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blog | Caminho da Quaresma</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fafaf9;
+      color: #1c1917;
+    }
+
+    /* animação */
+    .fade {
+      opacity: 0;
+      transform: translateY(30px) scale(.98);
+      transition: all .6s ease;
+    }
+
+    .fade.show {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    /* scroll invisível */
+    ::-webkit-scrollbar {
+      width: 0
+    }
+
+    html {
+      scrollbar-width: none
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="max-w-6xl mx-auto px-6 py-10 space-y-6 fade">
+
+    <h1 class="text-3xl md:text-5xl font-bold">
+      Caminho da Quaresma ✝️
+    </h1>
+
+    <!-- BUSCA -->
+    <input id="search" type="text" placeholder="Buscar conteúdo..."
+      class="w-full p-3 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-400">
+
+    <!-- FILTROS -->
+    <div id="filters" class="flex flex-wrap gap-2"></div>
+
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 pb-16">
+    <div id="grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+  </main>
+
+  <script>
+    const BASE = location.hostname.includes('github.io')
+      ? '/caminho-da-quaresma/'
+      : '/';
+
+    let ALL_POSTS = [];
+
+    fetch(BASE + 'blog.json')
+      .then(res => res.json())
+      .then(posts => {
+        ALL_POSTS = posts;
+        renderFilters(posts);
+        render(posts);
+      });
+
+    /* ---------------- RENDER ---------------- */
+
+    function render(posts) {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+
+      posts.forEach(post => {
+        const card = document.createElement('a');
+
+        card.href = BASE + 'blog/posts/' + post.id + '.html';
+        card.className = "card fade block rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition";
+
+        card.innerHTML = `
+      <div class="h-48 overflow-hidden">
+        <img src="${post.image}" class="w-full h-full object-cover">
+      </div>
+
+      <div class="p-5 space-y-2">
+        <h2 class="text-lg font-semibold">${post.title}</h2>
+        <p class="text-sm text-stone-500">${post.description}</p>
+
+        <div class="flex flex-wrap gap-1 mt-2">
+          ${(post.tags || []).map(tag =>
+          `<span class="text-xs bg-stone-100 px-2 py-1 rounded">${tag}</span>`
+        ).join('')}
+        </div>
+      </div>
+    `;
+
+        grid.appendChild(card);
+      });
+
+      animate();
+    }
+
+    /* ---------------- BUSCA ---------------- */
+
+    document.getElementById('search').addEventListener('input', e => {
+      const value = e.target.value.toLowerCase();
+
+      const filtered = ALL_POSTS.filter(p =>
+        p.title.toLowerCase().includes(value) ||
+        p.description.toLowerCase().includes(value) ||
+        (p.tags || []).join(' ').toLowerCase().includes(value)
+      );
+
+      render(filtered);
+    });
+
+    /* ---------------- FILTROS ---------------- */
+
+    function renderFilters(posts) {
+      const filters = document.getElementById('filters');
+
+      const categories = [...new Set(posts.map(p => p.category).filter(Boolean))];
+
+      // botão ALL
+      const allBtn = createFilter('Todos', () => render(ALL_POSTS));
+      filters.appendChild(allBtn);
+
+      categories.forEach(cat => {
+        const btn = createFilter(cat, () => {
+          const filtered = ALL_POSTS.filter(p => p.category === cat);
+          render(filtered);
+        });
+        filters.appendChild(btn);
+      });
+    }
+
+    function createFilter(label, onClick) {
+      const btn = document.createElement('button');
+
+      btn.innerText = label;
+      btn.className = "px-3 py-1 rounded-full text-sm bg-stone-100 hover:bg-stone-200 transition";
+
+      btn.onclick = onClick;
+
+      return btn;
+    }
+
+    /* ---------------- ANIMAÇÃO ---------------- */
+
+    function animate() {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) e.target.classList.add('show');
+        });
+      });
+
+      document.querySelectorAll('.fade').forEach(el => observer.observe(el));
+    }
+  </script>
+
+</body>
+
+</html>

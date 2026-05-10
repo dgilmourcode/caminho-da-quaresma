@@ -1,5 +1,41 @@
 [
   {
+    "id": "fraternidade-caridade",
+    "title": "Fraterninade e Caridade",
+    "icon": "✨",
+    "description": "O Ser fraterno e caridoso",
+    "linkText": "Ler mais",
+    "image": "https://images.unsplash.com/photo-1710092784814-4a6f158913b8?q=80&w=600&h=400&fit=crop00",
+    "category": "fraternidade",
+    "tags": [
+      "fraternidade",
+      "doação",
+      "compaixão"
+    ],
+    "blogContent": {
+      "subtitle": "Compaixão e Carisma pelo Irmão de Igreja",
+      "sections": [
+        {
+          "title": "Partilha na Igreja",
+          "content": "A partilha é ponto chave do fim da miséria."
+        },
+        {
+          "title": "Caridade vs Partilha",
+          "content": "A caridade é entendida como ato de ajudar por obrigação moral, religiosa ou espiritual, focada na assitência do necessitado. Já se tratando de fraternidade, relacionamos a doação de excedentes ou bens materiais desprendendo como ato de humanidade."
+        },
+        {
+          "title": "Faça um ato de caridade e outro de partilha",
+          "content": "Mostre como viver isso no dia a dia com exemplos reais."
+        }
+      ],
+      "tips": [
+        "Dica prática 1",
+        "Dica prática 2",
+        "Dica prática 3"
+      ]
+    }
+  },
+  {
     "id": "cantinho-oracao",
     "title": "Cantinho da Oração",
     "icon": "🏠",
